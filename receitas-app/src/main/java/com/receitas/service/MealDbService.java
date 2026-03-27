@@ -90,7 +90,7 @@ public class MealDbService {
             case "vegetarian", "vegan", "side" -> "saladas";
             case "starter" -> "petiscos";
             case "dessert", "breakfast" -> "doces";
-            case "miscellaneous" -> "sopas";
+            case "miscellaneous", "soup" -> "sopas";
             default -> "carne";
         };
     }

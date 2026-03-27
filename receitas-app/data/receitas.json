@@ -176,4 +176,30 @@
   } ],
   "passosPreparacao" : [ "Colocar num tacho a casca de limão umas pedras de sal e a margarina a ferver no ½ copo de água.", "Entretanto coloca-se o leite a ferver reservando apenas um pouco do leite frio. No leite frio que reservámos juntamos as gemas e batemos bem até estar homogéneo.", "Quando a água estiver a ferver junta-se o arroz e deixa-se em lume brando até enxugar a água, nessa altura junta-se quase todo o leite fervido deixando um pouco do leite para ir juntando aos poucos e mexendo para o arroz não agarrar ao tacho até o mesmo estar bem cozido (normalmente o arroz cozido começa a subir tipo vulcão).", "Neste momento apaga-se o lume e junta-se os ovos com o leite com o lume apagado e mexendo sempre até estarem incorporados, de seguida volta-se a ligar o lume e deita-se o açúcar mexendo sempre." ],
   "fotoUrl" : null
+}, {
+  "id" : "25cdca73-f949-4d56-a66d-56083a8612b8",
+  "titulo" : "Pudim Abade de Priscos",
+  "origem" : "Dona Berta",
+  "tipo" : "doces",
+  "subtipo" : null,
+  "numeroPessoas" : 8,
+  "dificuldade" : "intermedio",
+  "ingredientes" : [ {
+    "nome" : "400g",
+    "quantidade" : "Áçucar"
+  }, {
+    "nome" : "20",
+    "quantidade" : "Gemas de Ovos"
+  }, {
+    "nome" : "500ml",
+    "quantidade" : "Água"
+  }, {
+    "nome" : "1",
+    "quantidade" : "Casca de Limão"
+  }, {
+    "nome" : "1 Cálice",
+    "quantidade" : "Vinho do Porto"
+  } ],
+  "passosPreparacao" : [ "Colocar num tacho o açúcar com a água e a casca de limão até ficar em ponto pérola, deixa-se arrefecer.", "De seguida mexem-se as gemas com o vinho do porto e juntam-se ao açúcar em ponto.", "Coloca-se numa forma barrada com um pouco do açúcar em ponto e vai a cozer em banho-maria durante 20 a 25 minutos." ],
+  "fotoUrl" : null
 } ]
