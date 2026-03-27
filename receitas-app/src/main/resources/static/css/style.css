@@ -277,6 +277,7 @@ body {
 .t-molhos         { background-color: #fef08a; color: #713f12; }
 .t-temperos       { background-color: #fee2e2; color: #7f1d1d; }
 .t-bebidas        { background-color: #e0f2fe; color: #0c4a6e; }
+.t-internacional  { background-color: #f3e8ff; color: #6b21a8; }
 
 /* ===== Responsive ===== */
 @media (max-width: 767px) {

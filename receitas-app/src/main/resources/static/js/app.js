@@ -465,7 +465,8 @@ function tipoBadgeClass(tipo) {
         'carne': 't-carne', 'peixe': 't-peixe', 'marisco': 't-marisco',
         'massas': 't-massas', 'pizzas': 't-pizzas', 'sopas': 't-sopas',
         'saladas': 't-saladas', 'petiscos': 't-petiscos',
-        'molhos': 't-molhos', 'temperos': 't-temperos', 'bebidas': 't-bebidas'
+        'molhos': 't-molhos', 'temperos': 't-temperos', 'bebidas': 't-bebidas',
+        'internacional': 't-internacional'
     };
     return map[tipo] || 'bg-secondary text-white';
 }

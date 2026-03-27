@@ -15,7 +15,7 @@ public class ReceitaController {
 
     private static final Set<String> TIPOS_VALIDOS = Set.of(
         "doces", "carne", "peixe", "marisco", "massas",
-        "pizzas", "sopas", "saladas", "petiscos", "molhos", "temperos", "bebidas"
+        "pizzas", "sopas", "saladas", "petiscos", "molhos", "temperos", "bebidas", "internacional"
     );
     private static final Set<String> SUBTIPOS_VALIDOS = Set.of("com alcool", "sem alcool");
     private static final Set<String> DIFICULDADES_VALIDAS = Set.of("principiante", "intermedio", "avançado");
