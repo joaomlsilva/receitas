@@ -98,11 +98,15 @@ function renderRecipeList(receitas, groupByType) {
 }
 
 function recipeListItem(r) {
+    const origemHtml = r.origem
+        ? `<div class="text-muted text-truncate" style="font-size:0.72rem">by ${escapeHtml(r.origem)}</div>`
+        : '';
     return `
         <div class="recipe-list-item ${r.id === currentRecipeId ? 'active' : ''}"
              id="list-item-${escapeAttr(r.id)}"
              onclick="viewRecipe('${escapeAttr(r.id)}')">
             <div class="fw-medium text-truncate">${escapeHtml(r.titulo)}</div>
+            ${origemHtml}
         </div>
     `;
 }
