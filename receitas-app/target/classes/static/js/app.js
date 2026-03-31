@@ -156,8 +156,8 @@ function renderRecipeCard(receita, isApiResult) {
 
     const ingredientesHtml = (receita.ingredientes || []).map(ing => `
         <li class="list-group-item d-flex justify-content-between align-items-center">
-            <span>${escapeHtml(ing.nome)}</span>
             <span class="badge bg-light text-dark border">${escapeHtml(ing.quantidade)}</span>
+            <span>${escapeHtml(ing.nome)}</span>
         </li>`).join('');
 
     const passosHtml = (receita.passosPreparacao || []).map((p, i) => `
@@ -229,13 +229,13 @@ function addIngrediente() {
     const div = document.createElement('div');
     div.className = 'ingrediente-row row g-2 align-items-center';
     div.innerHTML = `
-        <div class="col-5">
-            <input type="text" class="form-control form-control-sm ing-nome"
-                   placeholder="Ingrediente" required maxlength="200">
-        </div>
-        <div class="col-5">
+        <div class="col-3">
             <input type="text" class="form-control form-control-sm ing-qtd"
                    placeholder="Quantidade" required maxlength="100">
+        </div>
+        <div class="col-7">
+            <input type="text" class="form-control form-control-sm ing-nome"
+                   placeholder="Ingrediente" required maxlength="200">
         </div>
         <div class="col-2 text-end">
             <button type="button" class="btn btn-outline-danger btn-sm" onclick="removeIngrediente(this)">
