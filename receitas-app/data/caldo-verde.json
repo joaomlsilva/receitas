@@ -1,0 +1,36 @@
+{
+  "id" : "2a3d4238-b89b-4d23-996e-9f1574a77e7b",
+  "titulo" : "Caldo Verde",
+  "origem" : "Tradição Minhota",
+  "tipo" : "sopas",
+  "subtipo" : null,
+  "numeroPessoas" : 4,
+  "dificuldade" : "principiante",
+  "ingredientes" : [ {
+    "nome" : "Batata",
+    "quantidade" : "500g"
+  }, {
+    "nome" : "Couve galega",
+    "quantidade" : "200g"
+  }, {
+    "nome" : "Chouriço",
+    "quantidade" : "1 unidade"
+  }, {
+    "nome" : "Azeite",
+    "quantidade" : "3 colheres de sopa"
+  }, {
+    "nome" : "Cebola",
+    "quantidade" : "1 unidade"
+  }, {
+    "nome" : "Alho",
+    "quantidade" : "2 dentes"
+  }, {
+    "nome" : "Sal",
+    "quantidade" : "q.b."
+  }, {
+    "nome" : "Água",
+    "quantidade" : "1,5L"
+  } ],
+  "passosPreparacao" : [ "Descascar e cortar as batatas em pedaços. Picar a cebola e o alho.", "Levar ao lume uma panela com o azeite, a cebola e o alho. Refogar até ficarem translúcidos.", "Adicionar as batatas e a água. Cozinhar em lume médio até as batatas estarem macias (cerca de 20 min).", "Triturar com a varinha mágica até obter um caldo homogéneo.", "Cortar a couve galega em juliana muito fina e adicionar ao caldo. Cozinhar 5 minutos.", "Fritar ligeiramente as rodelas de chouriço e adicionar à sopa.", "Retificar o sal e servir bem quente." ],
+  "fotoUrl" : null
+}

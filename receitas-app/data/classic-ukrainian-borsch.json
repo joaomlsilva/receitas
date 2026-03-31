@@ -1,0 +1,54 @@
+{
+  "id" : "d1c010ab-1336-4c66-8e25-dfabb92b0ba5",
+  "titulo" : "Classic Ukrainian Borsch",
+  "origem" : "Natashas kitchen",
+  "tipo" : "sopas",
+  "subtipo" : null,
+  "numeroPessoas" : 8,
+  "dificuldade" : "avançado",
+  "ingredientes" : [ {
+    "nome" : "Grandes ou 3 beterrabas médias, bem lavadas",
+    "quantidade" : "2"
+  }, {
+    "nome" : "Batatas grandes ou 3 médias, cortadas em pedaços pequenos",
+    "quantidade" : "2"
+  }, {
+    "nome" : "Azeite",
+    "quantidade" : "4 Colheres de Sopa"
+  }, {
+    "nome" : "Cebola média, finamente picada",
+    "quantidade" : "1"
+  }, {
+    "nome" : "Cenouras, raladas",
+    "quantidade" : "2"
+  }, {
+    "nome" : "Couve, finamente picada",
+    "quantidade" : "1/2"
+  }, {
+    "nome" : "Feijão encarnado com o líquido",
+    "quantidade" : "1 Lata"
+  }, {
+    "nome" : "Folhas de louro",
+    "quantidade" : "2"
+  }, {
+    "nome" : "Água",
+    "quantidade" : "2,4L"
+  }, {
+    "nome" : "Caldo de Galinha",
+    "quantidade" : "1,5L"
+  }, {
+    "nome" : "Ketchup",
+    "quantidade" : "5 Colheres de Sopa"
+  }, {
+    "nome" : "Sumo Limão",
+    "quantidade" : "4 Colheres de Sopa"
+  }, {
+    "nome" : "Pimenta do Reino",
+    "quantidade" : "1/4 Colher de chá"
+  }, {
+    "nome" : "dill (rama de funcho) picado",
+    "quantidade" : "1 Colher de Sopa"
+  } ],
+  "passosPreparacao" : [ "Encha uma panela grande com 2.4L de água, adicione as beterrabas tape deixe ferver e coza cerca de 1 hora. Quando estiverem cozidas retire da água e reserve.", "Mantenha a água ao lume e coloque as batatas cortadas em cubos e deixe ferver 15-20 minutos.", "Rale as cenouras, corte uma cebola e refogue no azeite cerca de 7 a 10 minutos, quando estiverem quase cozinhados junte o ketchup e deixe terminar de cozinhar.", "Ripe a couve bem fina e junte à panela quando as batatas estiverem meio cozidas.", "De seguida, descasque e corte as beterrabas em tiras bem finas junte às batatas e a couve.", "Adicione à panela o caldo de galinha, o sumo de limão, a pimenta, a folhas de louro e o feijão (com o liquido).", "Adicione também as cenouras e a cebola, juntamente com o dill picado.", "Deixe cozinhar por mais 5-10 minutos, até que a couve esteja cozida." ],
+  "fotoUrl" : null
+}

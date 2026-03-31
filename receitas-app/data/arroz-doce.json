@@ -1,0 +1,36 @@
+{
+  "id" : "ffcf148d-29fa-45cb-afd7-7f1589069540",
+  "titulo" : "Arroz Doce",
+  "origem" : "Dona Paula minha mãe",
+  "tipo" : "doces",
+  "subtipo" : null,
+  "numeroPessoas" : 8,
+  "dificuldade" : "principiante",
+  "ingredientes" : [ {
+    "nome" : "Açúcar",
+    "quantidade" : "200g"
+  }, {
+    "nome" : "Gemas de Ovo",
+    "quantidade" : "8"
+  }, {
+    "nome" : "Leite gordo",
+    "quantidade" : "2L"
+  }, {
+    "nome" : "Água",
+    "quantidade" : "1/2 Copo"
+  }, {
+    "nome" : "Arroz Carolino",
+    "quantidade" : "1 Copo"
+  }, {
+    "nome" : "Casca de Limão",
+    "quantidade" : "1"
+  }, {
+    "nome" : "Margarina",
+    "quantidade" : "1 Colher de Sopa"
+  }, {
+    "nome" : "Sal",
+    "quantidade" : "q.b."
+  } ],
+  "passosPreparacao" : [ "Colocar num tacho a casca de limão umas pedras de sal e a margarina a ferver no ½ copo de água.", "Entretanto coloca-se o leite a ferver reservando apenas um pouco do leite frio. No leite frio que reservámos juntamos as gemas e batemos bem até estar homogéneo.", "Quando a água estiver a ferver junta-se o arroz e deixa-se em lume brando até enxugar a água, nessa altura junta-se quase todo o leite fervido deixando um pouco do leite para ir juntando aos poucos e mexendo para o arroz não agarrar ao tacho até o mesmo estar bem cozido (normalmente o arroz cozido começa a subir tipo vulcão).", "Neste momento apaga-se o lume e junta-se os ovos com o leite com o lume apagado e mexendo sempre até estarem incorporados, de seguida volta-se a ligar o lume e deita-se o açúcar mexendo sempre." ],
+  "fotoUrl" : null
+}

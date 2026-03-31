@@ -1,0 +1,27 @@
+{
+  "id" : "25cdca73-f949-4d56-a66d-56083a8612b8",
+  "titulo" : "Pudim Abade de Priscos",
+  "origem" : "Dona Berta",
+  "tipo" : "doces",
+  "subtipo" : null,
+  "numeroPessoas" : 8,
+  "dificuldade" : "intermedio",
+  "ingredientes" : [ {
+    "nome" : "Áçucar",
+    "quantidade" : "400g"
+  }, {
+    "nome" : "Gemas de Ovos",
+    "quantidade" : "20"
+  }, {
+    "nome" : "Água",
+    "quantidade" : "500ml"
+  }, {
+    "nome" : "Casca de Limão",
+    "quantidade" : "1"
+  }, {
+    "nome" : "Vinho do Porto",
+    "quantidade" : "1 Cálice"
+  } ],
+  "passosPreparacao" : [ "Colocar num tacho o açúcar com a água e a casca de limão até ficar em ponto pérola, deixa-se arrefecer.", "De seguida mexem-se as gemas com o vinho do porto e juntam-se ao açúcar em ponto.", "Coloca-se numa forma barrada com um pouco do açúcar em ponto e vai a cozer em banho-maria durante 20 a 25 minutos." ],
+  "fotoUrl" : null
+}

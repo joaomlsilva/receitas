@@ -1,0 +1,39 @@
+{
+  "id" : "0b7b904e-a5b6-4668-9388-3ce1bf1471ea",
+  "titulo" : "Bacalhau à Brás",
+  "origem" : "Lisboa",
+  "tipo" : "peixe",
+  "subtipo" : null,
+  "numeroPessoas" : 4,
+  "dificuldade" : "intermedio",
+  "ingredientes" : [ {
+    "nome" : "Bacalhau demolhado",
+    "quantidade" : "600g"
+  }, {
+    "nome" : "Batata palha",
+    "quantidade" : "300g"
+  }, {
+    "nome" : "Ovos",
+    "quantidade" : "6 unidades"
+  }, {
+    "nome" : "Cebola",
+    "quantidade" : "2 unidades"
+  }, {
+    "nome" : "Alho",
+    "quantidade" : "3 dentes"
+  }, {
+    "nome" : "Azeite",
+    "quantidade" : "6 colheres de sopa"
+  }, {
+    "nome" : "Salsa fresca",
+    "quantidade" : "q.b."
+  }, {
+    "nome" : "Azeitonas pretas",
+    "quantidade" : "q.b."
+  }, {
+    "nome" : "Sal e pimenta",
+    "quantidade" : "q.b."
+  } ],
+  "passosPreparacao" : [ "Cozer o bacalhau em água, desfiar em lascas pequenas e reservar.", "Refogar a cebola e o alho picados no azeite em lume médio até ficarem dourados.", "Adicionar o bacalhau desfiado e saltear durante 2 minutos.", "Juntar a batata palha e envolver bem com o bacalhau.", "Bater os ovos com sal e pimenta e adicionar à mistura, mexendo em lume brando.", "Retirar do lume quando os ovos estiverem cremosos mas não completamente secos.", "Decorar com salsa picada e azeitonas pretas. Servir de imediato." ],
+  "fotoUrl" : null
+}

@@ -1,0 +1,39 @@
+{
+  "id" : "68227a5d-f284-46ba-bec2-66b09506ab2c",
+  "titulo" : "Pastéis de Nata",
+  "origem" : "Mosteiro dos Jerónimos, Lisboa",
+  "tipo" : "doces",
+  "subtipo" : null,
+  "numeroPessoas" : 12,
+  "dificuldade" : "avançado",
+  "ingredientes" : [ {
+    "nome" : "Massa folhada",
+    "quantidade" : "300g"
+  }, {
+    "nome" : "Gemas de ovo",
+    "quantidade" : "6 unidades"
+  }, {
+    "nome" : "Natas",
+    "quantidade" : "300ml"
+  }, {
+    "nome" : "Açúcar",
+    "quantidade" : "200g"
+  }, {
+    "nome" : "Farinha",
+    "quantidade" : "2 colheres de sopa"
+  }, {
+    "nome" : "Água",
+    "quantidade" : "100ml"
+  }, {
+    "nome" : "Casca de limão",
+    "quantidade" : "1 tira"
+  }, {
+    "nome" : "Pau de canela",
+    "quantidade" : "1 unidade"
+  }, {
+    "nome" : "Canela em pó",
+    "quantidade" : "q.b."
+  } ],
+  "passosPreparacao" : [ "Pré-aquecer o forno a 250°C. Untar as forminhas de pastel de nata.", "Forrar as forminhas com a massa folhada, pressionando bem para as bordas.", "Levar ao forno a 200°C durante 5 minutos para pré-cozer ligeiramente.", "Preparar o creme: num tachinho, misturar o açúcar com a água, a casca de limão e o pau de canela. Ferver durante 3 minutos.", "À parte, misturar as gemas com a farinha e as natas até ficar homogéneo.", "Retirar a casca de limão e o pau de canela da calda e adicioná-la aos poucos à mistura de ovos, mexendo sempre.", "Cozinhar o creme em lume brando, mexendo, até engrossar ligeiramente.", "Encher as forminhas com o creme até 3/4 da altura e levar ao forno a 250°C por 15-20 minutos, até ficarem dourados.", "Servir mornos, polvilhados com canela em pó e açúcar em pó a gosto." ],
+  "fotoUrl" : "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Pastel_de_nata.jpg/640px-Pastel_de_nata.jpg"
+}

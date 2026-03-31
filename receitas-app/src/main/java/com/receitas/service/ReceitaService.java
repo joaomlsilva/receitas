@@ -1,6 +1,5 @@
 package com.receitas.service;
 
-import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.receitas.model.Ingrediente;
 import com.receitas.model.Receita;
@@ -13,27 +12,29 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.*;
+import java.util.stream.Stream;
 
 @Service
 public class ReceitaService {
 
     private final ObjectMapper mapper = new ObjectMapper();
 
-    @Value("${receitas.data.path:./data/receitas.json}")
+    @Value("${receitas.data.path:./data}")
     private String dataPath;
 
-    private Path dataFile;
+    private Path dataDir;
     private List<Receita> receitas = new ArrayList<>();
 
     @PostConstruct
     public void init() throws IOException {
-        dataFile = Paths.get(dataPath).toAbsolutePath().normalize();
-        if (!Files.exists(dataFile)) {
-            Files.createDirectories(dataFile.getParent());
+        dataDir = Paths.get(dataPath).toAbsolutePath().normalize();
+        Files.createDirectories(dataDir);
+        receitas = carregarDeFicheiro();
+        if (receitas.isEmpty()) {
             receitas = criarReceitasExemplo();
-            salvarParaFicheiro();
-        } else {
-            receitas = carregarDeFicheiro();
+            for (Receita r : receitas) {
+                salvarReceita(r);
+            }
         }
     }
 
@@ -49,23 +50,62 @@ public class ReceitaService {
     public Receita criarReceita(Receita receita) throws IOException {
         receita.setId(UUID.randomUUID().toString());
         receitas.add(receita);
-        salvarParaFicheiro();
+        salvarReceita(receita);
         return receita;
     }
 
     public boolean eliminarReceita(String id) throws IOException {
         if (!isValidUUID(id)) return false;
         boolean removed = receitas.removeIf(r -> r.getId().equals(id));
-        if (removed) salvarParaFicheiro();
+        if (removed) {
+            encontrarFicheiroPorId(id).ifPresent(p -> {
+                try { Files.deleteIfExists(p); } catch (IOException ignored) {}
+            });
+        }
         return removed;
     }
 
-    private void salvarParaFicheiro() throws IOException {
-        mapper.writerWithDefaultPrettyPrinter().writeValue(dataFile.toFile(), receitas);
+    private void salvarReceita(Receita receita) throws IOException {
+        // Check if the file already exists for this ID and reuse its name
+        Optional<Path> existing = encontrarFicheiroPorId(receita.getId());
+        Path file = existing.orElseGet(() -> dataDir.resolve(toSlug(receita.getTitulo()) + ".json"));
+        mapper.writerWithDefaultPrettyPrinter().writeValue(file.toFile(), receita);
+    }
+
+    private Optional<Path> encontrarFicheiroPorId(String id) throws IOException {
+        try (Stream<Path> paths = Files.list(dataDir)) {
+            return paths.filter(f -> f.toString().endsWith(".json")).filter(f -> {
+                try {
+                    Receita r = mapper.readValue(f.toFile(), Receita.class);
+                    return id.equals(r.getId());
+                } catch (IOException e) {
+                    return false;
+                }
+            }).findFirst();
+        }
+    }
+
+    private static String toSlug(String title) {
+        if (title == null) return "receita";
+        return title.toLowerCase()
+            .replaceAll("[àáâãä]", "a")
+            .replaceAll("[èéêë]", "e")
+            .replaceAll("[ìíîï]", "i")
+            .replaceAll("[òóôõö]", "o")
+            .replaceAll("[ùúûü]", "u")
+            .replaceAll("[ç]", "c")
+            .replaceAll("[^a-z0-9]+", "-")
+            .replaceAll("(^-|-$)", "");
     }
 
     private List<Receita> carregarDeFicheiro() throws IOException {
-        return mapper.readValue(dataFile.toFile(), new TypeReference<List<Receita>>() {});
+        List<Receita> lista = new ArrayList<>();
+        try (Stream<Path> paths = Files.list(dataDir)) {
+            for (Path p : (Iterable<Path>) paths.filter(f -> f.toString().endsWith(".json"))::iterator) {
+                lista.add(mapper.readValue(p.toFile(), Receita.class));
+            }
+        }
+        return lista;
     }
 
     private boolean isValidUUID(String id) {
