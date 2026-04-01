@@ -1,0 +1,37 @@
+  {
+    "id": "c9d8e7f6-1234-5678-9abc-def012345678",
+    "titulo": "Bacalhau com Natas",
+    "origem": "Dona Berta",
+    "tipo": "peixe",
+    "subtipo": null,
+    "numeroPessoas": 4,
+    "dificuldade": "intermedio",
+    "ingredientes": [
+      { "nome": "Bacalhau", "quantidade": "400g" },
+      { "nome": "Batata palha", "quantidade": "1 pacote" },
+      { "nome": "Cebola", "quantidade": "2 unidades grandes" },
+      { "nome": "Alho", "quantidade": "3 dentes" },
+      { "nome": "Azeite", "quantidade": "1 dl" },
+      { "nome": "Molho bechamel", "quantidade": "500 ml" },
+      { "nome": "Natas", "quantidade": "1 pacote" },
+      { "nome": "Queijo mozarela ralado", "quantidade": "1 pacote" },
+      { "nome": "Gemas de ovo", "quantidade": "3 unidades" },
+      { "nome": "Sal", "quantidade": "q.b." },
+      { "nome": "Pimenta", "quantidade": "q.b." },
+      { "nome": "Noz-moscada", "quantidade": "q.b." }
+    ],
+    "passosPreparacao": [
+      "Cozer o bacalhau, retirar peles e espinhas e desfiar.",
+      "Num tacho, refogar a cebola e o alho picados no azeite até a cebola ficar macia.",
+      "Adicionar o bacalhau desfiado e deixar refogar ligeiramente.",
+      "Juntar a batata palha e misturar bem.",
+      "Temperar com sal, pimenta e noz-moscada.",
+      "À parte, misturar as natas com o bechamel.",
+      "Adicionar as gemas previamente desfeitas com um pouco da água de cozedura do bacalhau.",
+      "Envolver o preparado do bacalhau com o molho.",
+      "Colocar num tabuleiro e polvilhar com queijo mozarela ralado (ou pão ralado).",
+      "Levar ao forno até gratinar e ficar dourado.",
+      "Servir quente."
+    ],
+    "fotoUrl": null
+  }

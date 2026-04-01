@@ -1,0 +1,37 @@
+  {
+    "id": "b7c8d9e0-7777-8888-9999-0000aaaabbbb",
+    "titulo": "Francesinha",
+    "origem": "Porto",
+    "tipo": "carne",
+    "subtipo": "sandes",
+    "numeroPessoas": 2,
+    "dificuldade": "intermedio",
+    "ingredientes": [
+      { "nome": "Pão de forma", "quantidade": "4 fatias" },
+      { "nome": "Fiambre", "quantidade": "q.b." },
+      { "nome": "Queijo", "quantidade": "q.b." },
+      { "nome": "Salsichas", "quantidade": "q.b." },
+      { "nome": "Linguiça", "quantidade": "q.b." },
+      { "nome": "Carne assada ou bife", "quantidade": "q.b." },
+      { "nome": "Cerveja", "quantidade": "1 unidade" },
+      { "nome": "Caldo de carne", "quantidade": "1 cubo" },
+      { "nome": "Folhas de louro", "quantidade": "2 unidades" },
+      { "nome": "Margarina", "quantidade": "1 colher de sopa" },
+      { "nome": "Brandy ou vinho do Porto", "quantidade": "1 cálice" },
+      { "nome": "Maizena", "quantidade": "1 colher de sopa" },
+      { "nome": "Polpa de tomate", "quantidade": "2 colheres de sopa" },
+      { "nome": "Leite", "quantidade": "1 dl" },
+      { "nome": "Piri-piri", "quantidade": "q.b." }
+    ],
+    "passosPreparacao": [
+      "Dissolver a maizena no leite.",
+      "Juntar todos os ingredientes do molho e triturar com varinha mágica.",
+      "Levar o molho ao lume até ferver e engrossar, mexendo sempre.",
+      "Preparar uma sandes com pão, fiambre, salsicha, linguiça e carne.",
+      "Cobrir a sandes com queijo.",
+      "Colocar no prato de servir e regar com o molho.",
+      "Levar ao forno para gratinar até o queijo derreter.",
+      "Servir quente com garfo e faca."
+    ],
+    "fotoUrl": null
+  }

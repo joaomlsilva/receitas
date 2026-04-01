@@ -3,7 +3,7 @@
   "titulo" : "Cachupa Cabo Verde",
   "origem" : "Nelida",
   "tipo" : "carne",
-  "subtipo" : "cozido",
+  "subtipo" : null,
   "numeroPessoas" : 6,
   "dificuldade" : "intermedio",
   "ingredientes" : [ {

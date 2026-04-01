@@ -1,0 +1,31 @@
+  {
+    "id": "a1b2c3d4-1111-2222-3333-444455556666",
+    "titulo": "Coelho Assado no Forno",
+    "origem": "Tradicional",
+    "tipo": "carne",
+    "subtipo": null,
+    "numeroPessoas": 4,
+    "dificuldade": "intermedio",
+    "ingredientes": [
+      { "nome": "Coelho", "quantidade": "1 unidade" },
+      { "nome": "Vinho tinto", "quantidade": "q.b. (para cobrir)" },
+      { "nome": "Alho", "quantidade": "3 dentes" },
+      { "nome": "Azeite", "quantidade": "q.b." },
+      { "nome": "Folha de louro", "quantidade": "1 unidade" },
+      { "nome": "Colorau", "quantidade": "1 colher de sobremesa" },
+      { "nome": "Sal", "quantidade": "q.b." },
+      { "nome": "Pimenta", "quantidade": "q.b." }
+    ],
+    "passosPreparacao": [
+      "Cortar o coelho em pedaços e colocá-lo num recipiente.",
+      "Temperar com sal, pimenta, alho picado, louro, colorau e um fio de azeite.",
+      "Regar com vinho tinto até o coelho ficar totalmente coberto.",
+      "Deixar marinar durante 4 a 5 horas.",
+      "Pré-aquecer o forno a temperatura média.",
+      "Colocar o coelho num tabuleiro com parte da marinada.",
+      "Levar ao forno durante cerca de 45 minutos.",
+      "Ir regando com a marinada durante a assadura, se necessário.",
+      "Servir com batatas assadas."
+    ],
+    "fotoUrl": null
+  }

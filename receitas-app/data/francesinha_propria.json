@@ -1,0 +1,63 @@
+{
+  "id" : "f7a9c3d2-1e6b-4c58-9a21-3d8f5b7e2a11",
+  "titulo" : "Francesinhas (Receita Própria)",
+  "origem" : "Receita Própria",
+  "tipo" : "carne",
+  "subtipo" : null,
+  "numeroPessoas" : 2,
+  "dificuldade" : "intermedio",
+  "ingredientes" : [ {
+    "nome" : "Cerveja branca",
+    "quantidade" : "2 unidades"
+  }, {
+    "nome" : "Polpa de tomate",
+    "quantidade" : "300ml"
+  }, {
+    "nome" : "Folhas de louro",
+    "quantidade" : "2 unidades"
+  }, {
+    "nome" : "Cubo de caldo de carne",
+    "quantidade" : "1 unidade"
+  }, {
+    "nome" : "Amido de milho (Maizena)",
+    "quantidade" : "2 colheres de sopa"
+  }, {
+    "nome" : "Margarina",
+    "quantidade" : "2 colheres de sopa"
+  }, {
+    "nome" : "Piripiri",
+    "quantidade" : "q.b."
+  }, {
+    "nome" : "Leite",
+    "quantidade" : "1/2 copo"
+  }, {
+    "nome" : "Pão de forma",
+    "quantidade" : "4 fatias"
+  }, {
+    "nome" : "Fiambre",
+    "quantidade" : "2 fatias"
+  }, {
+    "nome" : "Queijo fatiado",
+    "quantidade" : "8 fatias"
+  }, {
+    "nome" : "Salsicha fresca",
+    "quantidade" : "2 unidades"
+  }, {
+    "nome" : "Linguiça",
+    "quantidade" : "2 unidades"
+  }, {
+    "nome" : "Bife de vaca (prego)",
+    "quantidade" : "2 unidades médias"
+  }, {
+    "nome" : "Cebola",
+    "quantidade" : "1 unidade pequena"
+  }, {
+    "nome" : "Azeite",
+    "quantidade" : "q.b."
+  }, {
+    "nome" : "Sal",
+    "quantidade" : "q.b."
+  } ],
+  "passosPreparacao" : [ "Começar pelo molho: dissolver o amido de milho no leite.", "Num tacho, juntar a cerveja, a polpa de tomate, o louro, o caldo de carne, a margarina, o piripiri e a mistura de leite com amido.", "Triturar tudo com a varinha mágica e levar ao lume médio, mexendo ocasionalmente, até engrossar. Retificar temperos e manter quente.", "Picar a cebola em cubos muito pequenos.", "Numa frigideira, refogar a cebola com azeite e sal até ficar macia.", "Adicionar o bife de vaca e a salsicha fresca e fritar bem.", "Depois de cozinhados, cortar a salsicha e a linguiça ao meio no sentido do comprimento.", "Montar a sandes: colocar uma fatia de pão, o fiambre, o bife, a salsicha e a linguiça, e cobrir com outra fatia de pão.", "Cobrir toda a sandes com fatias de queijo.", "Colocar a sandes num prato de forno e levar a gratinar até o queijo derreter completamente.", "Retirar do forno e regar com o molho bem quente.", "Servir no prato, com garfo e faca, acrescentando mais molho conforme o gosto." ],
+  "fotoUrl" : null
+}

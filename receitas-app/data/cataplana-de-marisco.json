@@ -1,0 +1,42 @@
+  {
+    "id": "d4e5f6a7-2222-3333-4444-555566667777",
+    "titulo": "Cataplana de Marisco",
+    "origem": "Tradicional",
+    "tipo": "marisco",
+    "subtipo": null,
+    "numeroPessoas": 6,
+    "dificuldade": "intermedio",
+    "ingredientes": [
+      { "nome": "Camarão", "quantidade": "400g" },
+      { "nome": "Argolas de lulas", "quantidade": "400g" },
+      { "nome": "Tamboril (cubos)", "quantidade": "600g" },
+      { "nome": "Mexilhão descascado", "quantidade": "300g" },
+      { "nome": "Lagosta congelada", "quantidade": "1/2 unidade" },
+      { "nome": "Lagostins", "quantidade": "800g" },
+      { "nome": "Postas de maruca", "quantidade": "4 unidades" },
+      { "nome": "Azeite", "quantidade": "2 dl" },
+      { "nome": "Cebola", "quantidade": "1 unidade" },
+      { "nome": "Alho", "quantidade": "2 dentes" },
+      { "nome": "Polpa de tomate", "quantidade": "2 colheres de sopa" },
+      { "nome": "Vinho branco", "quantidade": "1 dl" },
+      { "nome": "Salsa", "quantidade": "q.b." },
+      { "nome": "Açafrão", "quantidade": "1/2 colher de café" },
+      { "nome": "Caril", "quantidade": "1/2 colher de café" },
+      { "nome": "Natas", "quantidade": "1 colher de sopa" },
+      { "nome": "Sal", "quantidade": "q.b." },
+      { "nome": "Pimenta", "quantidade": "q.b." }
+    ],
+    "passosPreparacao": [
+      "Aquecer o azeite numa frigideira funda ou cataplana.",
+      "Refogar a cebola picada até ficar dourada.",
+      "Adicionar o peixe e marisco (exceto os mexilhões) sobre a cebola.",
+      "Juntar o alho picado, a polpa de tomate e o vinho branco.",
+      "Temperar com sal, pimenta e salsa picada.",
+      "Deixar cozinhar em lume brando durante cerca de 20 minutos.",
+      "A meio da cozedura, adicionar os mexilhões previamente cozidos.",
+      "No final, juntar o açafrão e o caril.",
+      "Se o molho estiver muito líquido, adicionar as natas e deixar ferver alguns minutos.",
+      "Servir quente."
+    ],
+    "fotoUrl": null
+  }
