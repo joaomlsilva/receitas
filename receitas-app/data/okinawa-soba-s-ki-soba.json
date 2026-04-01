@@ -1,0 +1,60 @@
+{
+  "id" : "17dff4a5-e6b4-4513-9bab-665ba86c2cc7",
+  "titulo" : "Okinawa Soba (Sōki Soba)",
+  "origem" : "japan.recipetineats.com",
+  "tipo" : "internacional",
+  "subtipo" : null,
+  "numeroPessoas" : 2,
+  "dificuldade" : "intermedio",
+  "ingredientes" : [ {
+    "nome" : "egg noodles",
+    "quantidade" : "400g"
+  }, {
+    "nome" : "kamaboko or chikuwa sliced to 7mm",
+    "quantidade" : "120g"
+  }, {
+    "nome" : "finely chopped shallots/scallions",
+    "quantidade" : "8 tbsp"
+  }, {
+    "nome" : "beni shōga",
+    "quantidade" : "4 tbsp"
+  }, {
+    "nome" : "pork rib strips (Sōki makes more than 4 standard servings for Sōki Soba)",
+    "quantidade" : "1kg"
+  }, {
+    "nome" : "ginger sliced (Sōki makes more than 4 standard servings for Sōki Soba)",
+    "quantidade" : "30g"
+  }, {
+    "nome" : "soy sauce (Sōki Flavouring)",
+    "quantidade" : "65ml"
+  }, {
+    "nome" : "sugar (Sōki Flavouring)",
+    "quantidade" : "2 tbsp"
+  }, {
+    "nome" : "mirin (Sōki Flavouring)",
+    "quantidade" : "2 tbsp"
+  }, {
+    "nome" : "sake (Sōki Flavouring)",
+    "quantidade" : "2 tbsp"
+  }, {
+    "nome" : "broth from boiling pork (Soba Broth)",
+    "quantidade" : "1400 ml"
+  }, {
+    "nome" : "bonito flakes (Soba Broth)",
+    "quantidade" : "10g"
+  }, {
+    "nome" : "salt (Soba Broth)",
+    "quantidade" : "2 tsp"
+  }, {
+    "nome" : "soy sauce (Soba Broth)",
+    "quantidade" : "2 tsp"
+  }, {
+    "nome" : "mirin (Soba Broth)",
+    "quantidade" : "2 tbsp"
+  }, {
+    "nome" : "sake (Soba Broth)",
+    "quantidade" : "1 tsp"
+  } ],
+  "passosPreparacao" : [ "Cut pork rib strip between the rib bones so that each piece gets meat with a bone (note 8).", "Put the pork pieces in a pot and fill with water to fully cover the pork.", "Bring it to a boil and cook for 5 minutes. Drain and discard the fluid. Rinse the pork pieces ensuring that scum is removed.", "Remove the scums from the pot cleanly, return the pork to the pot and add ginger pieces.", "Fill water to fully cover the pork pieces and bring it to a boil. Reduce heat to low and simmer for 1.5 hours with a lid on, until the pork becomes very tender but not breaking easily.", "Remove the pork pieces from the pot and keep the broth.", "(Making Simmered Sōki)\nTransfer the pork pieces to another large pot or a frying pan, preferably large enough to place the pork pieces in without overlapping.", "Add the Sōki Flavouring ingredients to the pot/pan with the pork and bring it to a boil.", "Reduce the heat to low and cook for about 5 minutes, turning the pork pieces over so that the flavour coats them.", "Bring the heat to high and continue to cook until the sauce almost evaporates. Turn the heat off.", "(Making Sōki Broth)\nAdd bonito flakes to the broth and bring it to a boil. Reduce the heat to simmer and cook for few minutes.", "Put the broth through a sieve to remove ginger, bonito flakes and tiny pork bits.", "Add the remaining Soba Broth ingredients and bring it to a boil. Turn the heat off.", "(Making Sōki Soba)\nBoil water in a pot and cook noodles as per the instructions on the pack.", "Drain water well and place noodles in each serving bowl.", "Pour 350ml of the soba broth into each of the bowls, topped with the simmered sōki, kamoaboko/chikuwa and shallots. Serve immediately." ],
+  "fotoUrl" : "https://japan.recipetineats.com/wp-content/uploads/2019/07/SokiSoba_3692.jpg"
+}
