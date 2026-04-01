@@ -1,0 +1,27 @@
+{
+    "id": "d4a1b6c7-8e2f-4d91-9a34-5c7e2f1a9b88",
+    "titulo": "Bifes de Veado",
+    "origem": "Tradicional",
+    "tipo": "carne",
+    "subtipo": null,
+    "numeroPessoas": 4,
+    "dificuldade": "facil",
+    "ingredientes": [
+      { "nome": "Lombo de veado", "quantidade": "500 g" },
+      { "nome": "Alho", "quantidade": "4 dentes" },
+      { "nome": "Sal", "quantidade": "q.b." },
+      { "nome": "Gindungo", "quantidade": "q.b." },
+      { "nome": "Louro", "quantidade": "1 folha" },
+      { "nome": "Azeite", "quantidade": "2 colheres sopa" },
+      { "nome": "Banha", "quantidade": "100 g" },
+      { "nome": "Limão", "quantidade": "1" }
+    ],
+    "passosPreparacao": [
+      "Cortar bifes e temperar.",
+      "Aquecer gorduras com louro.",
+      "Fritar os bifes dos dois lados.",
+      "Adicionar sumo de limão.",
+      "Servir de imediato."
+    ],
+    "fotoUrl": null
+  }

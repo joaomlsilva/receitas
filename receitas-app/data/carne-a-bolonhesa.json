@@ -1,0 +1,28 @@
+  {
+    "id": "07d4e9fa-b253-4d8e-d467-8fab5c4d9ebb",
+    "titulo": "Carne à Bolonhesa",
+    "origem": "Dona Paula minha mãe",
+    "tipo": "carne",
+    "subtipo": null,
+    "numeroPessoas": 6,
+    "dificuldade": "facil",
+    "ingredientes": [
+      { "nome": "Carne moída", "quantidade": "1 kg" },
+      { "nome": "Tomate triturado", "quantidade": "1 L" },
+      { "nome": "Pimentos", "quantidade": "2" },
+      { "nome": "Alho", "quantidade": "2 dentes" },
+      { "nome": "Cenouras", "quantidade": "4" },
+      { "nome": "Aipo", "quantidade": "1 mão cheia" },
+      { "nome": "Orégãos", "quantidade": "1/2 colher chá" },
+      { "nome": "Azeite", "quantidade": "q.b." },
+      { "nome": "Margarina", "quantidade": "2 colheres sopa" }
+    ],
+    "passosPreparacao": [
+      "Refogar legumes com azeite e margarina.",
+      "Triturar e voltar ao tacho.",
+      "Adicionar carne e selar.",
+      "Juntar tomate e temperos.",
+      "Cozinhar lentamente até apurar."
+    ],
+    "fotoUrl": null
+  }

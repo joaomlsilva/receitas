@@ -1,0 +1,30 @@
+{
+    "id": "e5b2c7d8-9f31-4a6b-b245-6d8f3a2b7c99",
+    "titulo": "Lombinhos de Veado com Guarnição",
+    "origem": "Tradicional",
+    "tipo": "carne",
+    "subtipo": null,
+    "numeroPessoas": 4,
+    "dificuldade": "dificil",
+    "ingredientes": [
+      { "nome": "Lombos de veado", "quantidade": "2 (~320 g)" },
+      { "nome": "Batatas", "quantidade": "400 g" },
+      { "nome": "Natas", "quantidade": "2 colheres sopa" },
+      { "nome": "Couves-de-bruxelas", "quantidade": "200 g" },
+      { "nome": "Cogumelos", "quantidade": "100 g" },
+      { "nome": "Peras", "quantidade": "4" },
+      { "nome": "Vinho tinto", "quantidade": "100 ml" },
+      { "nome": "Vinho do Porto", "quantidade": "75 ml" },
+      { "nome": "Canela", "quantidade": "1 pau" },
+      { "nome": "Açúcar", "quantidade": "1 colher sopa" }
+    ],
+    "passosPreparacao": [
+      "Cozer as peras com vinho e especiarias.",
+      "Preparar molho com vinho do Porto.",
+      "Fazer puré de batata.",
+      "Cozer legumes.",
+      "Selar e assar o veado.",
+      "Empratar com todos os elementos."
+    ],
+    "fotoUrl": null
+  }

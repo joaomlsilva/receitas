@@ -1,0 +1,26 @@
+{
+    "id": "f6c3d8e9-a142-4c7d-c356-7e9a4b3c8daa",
+    "titulo": "Bife à Café",
+    "origem": "Filipa Vacondeus",
+    "tipo": "carne",
+    "subtipo": null,
+    "numeroPessoas": 1,
+    "dificuldade": "intermedio",
+    "ingredientes": [
+      { "nome": "Bife de vaca", "quantidade": "200 g" },
+      { "nome": "Manteiga", "quantidade": "2 colheres sopa" },
+      { "nome": "Alho", "quantidade": "q.b." },
+      { "nome": "Natas", "quantidade": "q.b." },
+      { "nome": "Mostarda", "quantidade": "1 colher café" },
+      { "nome": "Limão", "quantidade": "q.b." },
+      { "nome": "Café", "quantidade": "q.b." }
+    ],
+    "passosPreparacao": [
+      "Fritar o bife com alho.",
+      "Retirar e preparar molho com manteiga, natas, mostarda e café.",
+      "Adicionar limão e sucos da carne.",
+      "Voltar a colocar o bife.",
+      "Servir com batatas e ovo."
+    ],
+    "fotoUrl": null
+  }

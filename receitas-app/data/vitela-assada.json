@@ -1,0 +1,23 @@
+{
+    "id": "c3f9a5b2-7d4e-4a8c-a123-3b5e7f9a1c45",
+    "titulo": "Vitela Assada",
+    "origem": "Tradicional",
+    "tipo": "carne",
+    "subtipo": null,
+    "numeroPessoas": 3,
+    "dificuldade": "facil",
+    "ingredientes": [
+      { "nome": "Vitela", "quantidade": "500 g" },
+      { "nome": "Vinho branco", "quantidade": "1 copo" },
+      { "nome": "Alho", "quantidade": "3 dentes" },
+      { "nome": "Azeite", "quantidade": "q.b." },
+      { "nome": "Sal, pimenta e piripiri", "quantidade": "q.b." }
+    ],
+    "passosPreparacao": [
+      "Temperar a vitela com vinho, alho e sal.",
+      "Adicionar azeite e especiarias.",
+      "Levar ao forno até assar.",
+      "Servir com arroz ou batatas."
+    ],
+    "fotoUrl": null
+  }

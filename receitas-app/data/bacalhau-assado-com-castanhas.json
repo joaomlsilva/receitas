@@ -1,0 +1,31 @@
+{
+    "id": "a1f7c3e2-9b4d-4c6f-8a21-1d3e5b7c9f01",
+    "titulo": "Bacalhau Assado com Castanhas",
+    "origem": "Tradicional",
+    "tipo": "peixe",
+    "subtipo": null,
+    "numeroPessoas": 4,
+    "dificuldade": "intermedio",
+    "ingredientes": [
+      { "nome": "Postas de bacalhau", "quantidade": "4" },
+      { "nome": "Leite", "quantidade": "q.b." },
+      { "nome": "Alho", "quantidade": "2 dentes" },
+      { "nome": "Castanhas", "quantidade": "1 kg" },
+      { "nome": "Azeite", "quantidade": "200 ml" },
+      { "nome": "Batatas pequenas", "quantidade": "500 g" },
+      { "nome": "Sal e pimenta", "quantidade": "q.b." },
+      { "nome": "Erva-doce", "quantidade": "1 colher de chá" },
+      { "nome": "Salsa", "quantidade": "1 ramo" },
+      { "nome": "Azeitonas pretas", "quantidade": "q.b." }
+    ],
+    "passosPreparacao": [
+      "Demolhar o bacalhau em leite.",
+      "Cozer ligeiramente as castanhas com sal e erva-doce e descascar.",
+      "Cozer parcialmente as batatas com pele.",
+      "Colocar o bacalhau num tabuleiro com alho, azeite e pimenta.",
+      "Adicionar batatas e castanhas e regar com leite.",
+      "Levar ao forno e regar ocasionalmente.",
+      "Servir com salsa e azeitonas."
+    ],
+    "fotoUrl": null
+  }

@@ -1,0 +1,32 @@
+{
+    "id": "b2e8d4f1-6c3a-4b9e-9f12-2a4d6e8f0b23",
+    "titulo": "Cataplana de Tamboril",
+    "origem": "Tradicional",
+    "tipo": "peixe",
+    "subtipo": null,
+    "numeroPessoas": 4,
+    "dificuldade": "intermedio",
+    "ingredientes": [
+      { "nome": "Tamboril", "quantidade": "750 g" },
+      { "nome": "Amêijoas", "quantidade": "150 g" },
+      { "nome": "Camarão", "quantidade": "200 g" },
+      { "nome": "Batatas", "quantidade": "2" },
+      { "nome": "Cebola", "quantidade": "1" },
+      { "nome": "Tomate", "quantidade": "1" },
+      { "nome": "Pimento verde", "quantidade": "1/2" },
+      { "nome": "Alho", "quantidade": "2 dentes" },
+      { "nome": "Azeite", "quantidade": "q.b." },
+      { "nome": "Vinho do Porto", "quantidade": "1 cálice" },
+      { "nome": "Molho inglês", "quantidade": "1 colher sopa" },
+      { "nome": "Natas", "quantidade": "1 colher sopa" }
+    ],
+    "passosPreparacao": [
+      "Preparar base com tomate e azeite.",
+      "Adicionar legumes às rodelas e alho.",
+      "Juntar tamboril, batatas, camarão e amêijoas.",
+      "Fechar a cataplana e cozinhar 25 minutos.",
+      "Adicionar coentros e molho final.",
+      "Servir quente."
+    ],
+    "fotoUrl": null
+  }
