@@ -1,0 +1,42 @@
+{
+  "id" : "9c0e2615-d5b8-44b1-b373-dc440adc1628",
+  "titulo" : "Kakuni (Simmered Pork Belly)",
+  "origem" : "japan.recipetineats.com",
+  "tipo" : "internacional",
+  "subtipo" : null,
+  "numeroPessoas" : 2,
+  "dificuldade" : "intermedio",
+  "ingredientes" : [ {
+    "nome" : "pork belly",
+    "quantidade" : "500g"
+  }, {
+    "nome" : "shallot/scallion stem",
+    "quantidade" : "1"
+  }, {
+    "nome" : "ginger",
+    "quantidade" : "30g"
+  }, {
+    "nome" : "sake",
+    "quantidade" : "100ml"
+  }, {
+    "nome" : "water",
+    "quantidade" : "100ml"
+  }, {
+    "nome" : "soy sauce",
+    "quantidade" : "2 1/2 tbsp"
+  }, {
+    "nome" : "Sugar",
+    "quantidade" : "2 tbsp"
+  }, {
+    "nome" : "green beans",
+    "quantidade" : "6"
+  }, {
+    "nome" : "shallots",
+    "quantidade" : "1 tbsp"
+  }, {
+    "nome" : "Japanese karashi or hot English mustard (optional)",
+    "quantidade" : ""
+  } ],
+  "passosPreparacao" : [ "Add the Pork ingredients in a large pot which is large enough to lay the pork belly strips. Add generous amount of water and turn the heat on high.", "When the water starts boiling, reduce the heat to low so it simmers. Place a drop lid and cook for 2 hours or until tender (if the pork belly is thicker, you may need cook longer). If the water reduces too much and the pork appears above the water level, add some more water and ensure that the pork is always under the water.", "Using tongs or two spatulas, remove the pork strips carefully from the pot and rinse them under the running cold water gently. The pork should be quite tender now so be careful not to break them.", "Cut each pork belly strip into 3 or 4 equal sizes, about 4cm (1 1/2\") wide.", "The liquid in which the pork was boiled can be re-used as soup stock.", "Add the Simmering Sauce ingredients and the pork belly pieces to another pot and turn the heat on high. When started boiling, reduce heat to low to simmer. Place a drop lid and cook for 25 minutes or until the liquid reduces to only about 1-2 tablespoons. While cooking, shake the pot occasionally to make sure that the sauce coats all sides of the meat.", "Turn the heat off. Plate the pork with green beans on the side, add the julienned shallots on top. Drop a small amount of karashi or hot English mustard." ],
+  "fotoUrl" : "https://japan.recipetineats.com/wp-content/uploads/2016/10/Kakuni_2.jpg"
+}

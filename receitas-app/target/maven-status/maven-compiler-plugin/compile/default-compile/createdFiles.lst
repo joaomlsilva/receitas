@@ -2,5 +2,6 @@ com/receitas/model/Ingrediente.class
 com/receitas/controller/ReceitaController.class
 com/receitas/service/ReceitaService.class
 com/receitas/ReceitasApplication.class
+com/receitas/service/RecipeUrlService.class
 com/receitas/model/Receita.class
 com/receitas/service/MealDbService.class

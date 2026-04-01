@@ -36,6 +36,7 @@ function showHome() {
 
 function showCreateForm() {
     showView('create-form');
+    document.getElementById('form-title').innerHTML = '<i class="bi bi-plus-circle me-2 text-primary"></i>Nova Receita';
     document.getElementById('receita-form').reset();
     document.getElementById('form-error').hidden = true;
     document.getElementById('subtipo-group').hidden = true;
@@ -151,8 +152,8 @@ function renderRecipeCard(receita, isApiResult) {
     const diffClass = difficultyClass(receita.dificuldade);
 
     const actionsHtml = isApiResult
-        ? `<button class="btn btn-success btn-sm" onclick="saveFromApi()">
-               <i class="bi bi-bookmark-plus me-1"></i>Guardar na Coleção
+        ? `<button class="btn btn-success btn-sm" onclick="editImportedRecipe()">
+               <i class="bi bi-pencil-square me-1"></i>Editar e Guardar
            </button>`
         : `<button class="btn btn-outline-danger btn-sm" onclick="confirmDelete('${escapeAttr(receita.id)}')">
                <i class="bi bi-trash me-1"></i>Eliminar
@@ -428,23 +429,97 @@ function showApiRecipe(id) {
 }
 
 // =====================================================================
-// Save from API (Bonus)
+// Import from URL (schema.org Recipe JSON-LD)
 // =====================================================================
-async function saveFromApi() {
-    if (!currentApiReceita) return;
+async function importFromUrl() {
+    const urlInput = document.getElementById('url-import-input');
+    const errorEl = document.getElementById('url-import-error');
+    const url = urlInput.value.trim();
+
+    if (!url) {
+        errorEl.textContent = 'Insira um URL.';
+        errorEl.hidden = false;
+        return;
+    }
+    if (!url.startsWith('http://') && !url.startsWith('https://')) {
+        errorEl.textContent = 'O URL deve começar com http:// ou https://';
+        errorEl.hidden = false;
+        return;
+    }
+    errorEl.hidden = true;
+
+    showView('recipe-view');
+    document.getElementById('recipe-view').innerHTML = `
+        <div class="text-center py-5">
+            <div class="spinner-border text-success" role="status"></div>
+            <div class="mt-2 text-muted">A importar receita...</div>
+        </div>`;
+
     try {
-        const res = await fetch('/api/receitas/guardar-api', {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify(currentApiReceita)
+        const res = await fetch(`/api/import-url?url=${encodeURIComponent(url)}`);
+        if (!res.ok) {
+            const msg = await res.text();
+            throw new Error(msg || 'Erro ao importar.');
+        }
+        const receita = await res.json();
+        renderRecipeCard(receita, true);
+        urlInput.value = '';
+    } catch (err) {
+        document.getElementById('recipe-view').innerHTML =
+            `<div class="alert alert-danger m-4"><i class="bi bi-exclamation-triangle me-2"></i>${escapeHtml(err.message)}</div>`;
+    }
+}
+
+// =====================================================================
+// Edit imported recipe before saving
+// =====================================================================
+function editImportedRecipe() {
+    if (!currentApiReceita) return;
+    const receita = currentApiReceita;
+
+    showView('create-form');
+    document.getElementById('form-title').innerHTML = '<i class="bi bi-pencil-square me-2 text-success"></i>Editar Receita Importada';
+    document.getElementById('receita-form').reset();
+    document.getElementById('form-error').hidden = true;
+    document.getElementById('subtipo-group').hidden = true;
+
+    document.getElementById('f-titulo').value = receita.titulo || '';
+    document.getElementById('f-origem').value = receita.origem || '';
+    document.getElementById('f-pessoas').value = receita.numeroPessoas || 4;
+    document.getElementById('f-dificuldade').value = receita.dificuldade || '';
+    document.getElementById('f-foto').value = receita.fotoUrl || '';
+
+    document.getElementById('f-tipo').value = receita.tipo || '';
+    toggleSubtipo();
+    if (receita.subtipo) document.getElementById('f-subtipo').value = receita.subtipo;
+
+    const ingList = document.getElementById('ingredientes-list');
+    ingList.innerHTML = '';
+    const ings = (receita.ingredientes || []);
+    if (ings.length) {
+        ings.forEach(ing => {
+            addIngrediente();
+            const rows = ingList.querySelectorAll('.ingrediente-row');
+            const row = rows[rows.length - 1];
+            row.querySelector('.ing-qtd').value = ing.quantidade || '';
+            row.querySelector('.ing-nome').value = ing.nome || '';
         });
-        if (!res.ok) throw new Error();
-        const saved = await res.json();
-        showToast('Receita guardada na sua coleção!');
-        await loadRecipes();
-        viewRecipe(saved.id);
-    } catch {
-        showToast('Erro ao guardar a receita.', 'danger');
+    } else {
+        addIngrediente();
+    }
+
+    const passosList = document.getElementById('passos-list');
+    passosList.innerHTML = '';
+    const passos = (receita.passosPreparacao || []);
+    if (passos.length) {
+        passos.forEach(passo => {
+            addPasso();
+            const rows = passosList.querySelectorAll('.passo-row');
+            const row = rows[rows.length - 1];
+            row.querySelector('.passo-texto').value = passo;
+        });
+    } else {
+        addPasso();
     }
 }
 
@@ -491,5 +566,8 @@ document.addEventListener('DOMContentLoaded', () => {
     loadRecipes();
     document.getElementById('search-input').addEventListener('keydown', e => {
         if (e.key === 'Enter') performSearch();
+    });
+    document.getElementById('url-import-input').addEventListener('keydown', e => {
+        if (e.key === 'Enter') importFromUrl();
     });
 });

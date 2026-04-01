@@ -3,6 +3,7 @@ package com.receitas.controller;
 import com.receitas.model.Receita;
 import com.receitas.service.MealDbService;
 import com.receitas.service.ReceitaService;
+import com.receitas.service.RecipeUrlService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
@@ -22,10 +23,12 @@ public class ReceitaController {
 
     private final ReceitaService receitaService;
     private final MealDbService mealDbService;
+    private final RecipeUrlService recipeUrlService;
 
-    public ReceitaController(ReceitaService receitaService, MealDbService mealDbService) {
+    public ReceitaController(ReceitaService receitaService, MealDbService mealDbService, RecipeUrlService recipeUrlService) {
         this.receitaService = receitaService;
         this.mealDbService = mealDbService;
+        this.recipeUrlService = recipeUrlService;
     }
 
     @GetMapping("/receitas")
@@ -70,6 +73,24 @@ public class ReceitaController {
             return removed ? ResponseEntity.noContent().build() : ResponseEntity.notFound().build();
         } catch (Exception e) {
             return ResponseEntity.internalServerError().build();
+        }
+    }
+
+    @GetMapping("/import-url")
+    public ResponseEntity<?> importFromUrl(@RequestParam String url) {
+        if (url == null || url.isBlank() || url.length() > 2000) {
+            return ResponseEntity.badRequest().body("URL inválido.");
+        }
+        if (!url.startsWith("http://") && !url.startsWith("https://")) {
+            return ResponseEntity.badRequest().body("Apenas URLs http/https são suportados.");
+        }
+        try {
+            Receita receita = recipeUrlService.importFromUrl(url.trim());
+            return ResponseEntity.ok(receita);
+        } catch (IllegalArgumentException | IllegalStateException e) {
+            return ResponseEntity.badRequest().body(e.getMessage());
+        } catch (Exception e) {
+            return ResponseEntity.internalServerError().body("Erro ao importar receita da URL.");
         }
     }
 

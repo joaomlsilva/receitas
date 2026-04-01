@@ -67,6 +67,19 @@
                 </div>
                 <div id="search-error" class="text-danger small mt-1" hidden></div>
             </div>
+
+            <!-- Import from URL -->
+            <div class="sidebar-section sidebar-search">
+                <h6 class="sidebar-label">Importar de URL</h6>
+                <div class="input-group input-group-sm">
+                    <input type="url" id="url-import-input" class="form-control"
+                           placeholder="Ex: chicken..." maxlength="2000">
+                    <button class="btn btn-outline-success" onclick="importFromUrl()">
+                        <i class="bi bi-box-arrow-in-down"></i>
+                    </button>
+                </div>
+                <div id="url-import-error" class="text-danger small mt-1" hidden></div>
+            </div>
         </aside>
 
         <!-- Main Content -->
@@ -88,7 +101,7 @@
             <!-- Create Form -->
             <div id="create-form" hidden>
                 <div class="form-container">
-                    <h3 class="mb-4"><i class="bi bi-plus-circle me-2 text-primary"></i>Nova Receita</h3>
+                    <h3 class="mb-4" id="form-title"><i class="bi bi-plus-circle me-2 text-primary"></i>Nova Receita</h3>
                     <form id="receita-form" onsubmit="submitForm(event)" novalidate>
                         <div class="row g-3">
 
