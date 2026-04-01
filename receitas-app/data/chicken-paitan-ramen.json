@@ -1,0 +1,57 @@
+{
+  "id" : "72c4c4d5-2943-4193-bf75-c12295787aeb",
+  "titulo" : "Chicken Paitan Ramen",
+  "origem" : "japan.recipetineats.com",
+  "tipo" : "internacional",
+  "subtipo" : null,
+  "numeroPessoas" : 2,
+  "dificuldade" : "intermedio",
+  "ingredientes" : [ {
+    "nome" : "Chicken Paitan Broth",
+    "quantidade" : "400ml"
+  }, {
+    "nome" : "fresh egg noodles",
+    "quantidade" : "80-100g"
+  }, {
+    "nome" : "Salt Flavouring Base",
+    "quantidade" : "2 tbsp"
+  }, {
+    "nome" : "slices Salt Chicken Rolls (Toppings)",
+    "quantidade" : "4"
+  }, {
+    "nome" : "bunch bok choy halved vertically blanched (Toppings)",
+    "quantidade" : "1"
+  }, {
+    "nome" : "boiled egg halved (Toppings)",
+    "quantidade" : "1"
+  }, {
+    "nome" : "Finley chopped shallots(Aussie)/scallions (Toppings)",
+    "quantidade" : "q.b."
+  }, {
+    "nome" : "chicken carcasses (Chicken Paitan Broth)",
+    "quantidade" : "1kg"
+  }, {
+    "nome" : "chicken feet (Chicken Paitan Broth)",
+    "quantidade" : "500g"
+  }, {
+    "nome" : "onion peeled and cut into large pieces (Chicken Paitan Broth)",
+    "quantidade" : "1"
+  }, {
+    "nome" : "bulb of garlic horizontally halved (Chicken Paitan Broth)",
+    "quantidade" : "1"
+  }, {
+    "nome" : "stems shallots/scallions cut into 10cm (Chicken Paitan Broth)",
+    "quantidade" : "2"
+  }, {
+    "nome" : "ginger cut in half and bruised (Chicken Paitan Broth)",
+    "quantidade" : "30g"
+  }, {
+    "nome" : "water (Chicken Paitan Broth)",
+    "quantidade" : "3L"
+  }, {
+    "nome" : "milk (optional) (Chicken Paitan Broth)",
+    "quantidade" : "2 tbsp"
+  } ],
+  "passosPreparacao" : [ "(Chicken Paitan Broth)\nChop each chicken carcass into about 8 small pieces. Clean each piece thoroughly, removing the guts attached to the backbones.", "Put chicken bones and feet into a pressure cooker, add water to the maximum level that the pressure cooker can handle and bring it to a boil.", "Remove the scum while boiling until only a small amount of white foam surfaces in a couple of places. Using a wooden spatula, occasionally mix the bones as if you are crushing them. This makes the broth cloudier.", "Add the vegetables to the pot. When it starts boiling again, remove the scums for the last time and put the lid on.", "Pressure cook for 40 minutes, then let the steam out.", "Put the broth through a sieve and collect only the whitish liquid in a saucepan.", "Add milk (if using) and bring it to a boil, then turn the heat off.", "(Chicken Paitan Ramen)\nAdd the Salt Flavouring Base to a serving bowl.", "Boil water in a saucepan, cook noodles and drain.", "Add hot Chicken Paitan Broth to the bowl and mix. Taste test the soup and adjust with salt.", "Add the noodles to the bowl.", "Place the toppings and serve immediately." ],
+  "fotoUrl" : "https://japan.recipetineats.com/wp-content/uploads/2020/08/Chicken_Paitan_Ramen_4818sq.jpg"
+}
