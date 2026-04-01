@@ -2,7 +2,9 @@
 // State
 // =====================================================================
 let currentRecipeId = null;
+let currentEditingId = null;
 let searchResults = [];
+let recipeTinResults = [];
 let currentApiReceita = null;
 
 // =====================================================================
@@ -35,6 +37,7 @@ function showHome() {
 }
 
 function showCreateForm() {
+    currentEditingId = null;
     showView('create-form');
     document.getElementById('form-title').innerHTML = '<i class="bi bi-plus-circle me-2 text-primary"></i>Nova Receita';
     document.getElementById('receita-form').reset();
@@ -42,6 +45,7 @@ function showCreateForm() {
     document.getElementById('subtipo-group').hidden = true;
     document.getElementById('ingredientes-list').innerHTML = '';
     document.getElementById('passos-list').innerHTML = '';
+    document.getElementById('submit-btn').textContent = 'Criar Receita';
     addIngrediente();
     addPasso();
 }
@@ -155,7 +159,8 @@ function renderRecipeCard(receita, isApiResult) {
         ? `<button class="btn btn-success btn-sm" onclick="editImportedRecipe()">
                <i class="bi bi-pencil-square me-1"></i>Editar e Guardar
            </button>`
-        : `<button class="btn btn-outline-danger btn-sm" onclick="confirmDelete('${escapeAttr(receita.id)}')">
+        : `<button class="btn btn-outline-primary btn-sm" onclick="showEditForm('${escapeAttr(receita.id)}')"><i class="bi bi-pencil me-1"></i>Editar</button>
+           <button class="btn btn-outline-danger btn-sm" onclick="confirmDelete('${escapeAttr(receita.id)}')">
                <i class="bi bi-trash me-1"></i>Eliminar
            </button>`;
 
@@ -318,19 +323,30 @@ async function submitForm(e) {
     };
 
     try {
-        const res = await fetch('/api/receitas', {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify(receita)
-        });
+        let res;
+        if (currentEditingId) {
+            res = await fetch(`/api/receitas/${encodeURIComponent(currentEditingId)}`, {
+                method: 'PUT',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(receita)
+            });
+        } else {
+            res = await fetch('/api/receitas', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(receita)
+            });
+        }
         if (!res.ok) {
             const msg = await res.text();
-            throw new Error(msg || 'Erro ao criar receita.');
+            throw new Error(msg || (currentEditingId ? 'Erro ao guardar alterações.' : 'Erro ao criar receita.'));
         }
-        const created = await res.json();
-        showToast('Receita criada com sucesso!');
+        const saved = await res.json();
+        const successMsg = currentEditingId ? 'Receita atualizada com sucesso!' : 'Receita criada com sucesso!';
+        currentEditingId = null;
+        showToast(successMsg);
         await loadRecipes();
-        viewRecipe(created.id);
+        viewRecipe(saved.id);
     } catch (err) {
         errorDiv.textContent = err.message;
         errorDiv.hidden = false;
@@ -429,32 +445,73 @@ function showApiRecipe(id) {
 }
 
 // =====================================================================
-// Import from URL (schema.org Recipe JSON-LD)
+// RecipeTin Japan Search
 // =====================================================================
-async function importFromUrl() {
-    const urlInput = document.getElementById('url-import-input');
-    const errorEl = document.getElementById('url-import-error');
-    const url = urlInput.value.trim();
+async function performRecipeTinSearch() {
+    const input = document.getElementById('recipetineats-search-input');
+    const errorEl = document.getElementById('recipetineats-search-error');
+    const query = input.value.trim();
 
-    if (!url) {
-        errorEl.textContent = 'Insira um URL.';
-        errorEl.hidden = false;
-        return;
-    }
-    if (!url.startsWith('http://') && !url.startsWith('https://')) {
-        errorEl.textContent = 'O URL deve começar com http:// ou https://';
+    if (!query) {
+        errorEl.textContent = 'Insira um termo de pesquisa.';
         errorEl.hidden = false;
         return;
     }
     errorEl.hidden = true;
 
+    showView('search-results');
+    document.getElementById('search-results-content').innerHTML = `
+        <div class="text-center py-5">
+            <div class="spinner-border text-success"></div>
+            <div class="mt-2 text-muted">A pesquisar em RecipeTin Japan...</div>
+        </div>`;
+
+    try {
+        const res = await fetch(`/api/search-recipetineats?q=${encodeURIComponent(query)}`);
+        if (!res.ok) throw new Error();
+        recipeTinResults = await res.json();
+        renderRecipeTinResults(query);
+    } catch {
+        document.getElementById('search-results-content').innerHTML =
+            '<div class="alert alert-danger">Erro ao pesquisar. Verifique a sua ligação à internet.</div>';
+    }
+}
+
+function renderRecipeTinResults(query) {
+    const el = document.getElementById('search-results-content');
+    if (!recipeTinResults.length) {
+        el.innerHTML = `
+            <div class="alert alert-warning">
+                <i class="bi bi-exclamation-triangle me-2"></i>
+                Nenhuma receita encontrada para "<strong>${escapeHtml(query)}</strong>".
+            </div>`;
+        return;
+    }
+    el.innerHTML = `
+        <p class="text-muted mb-3">${recipeTinResults.length} receita(s) encontrada(s) para "<strong>${escapeHtml(query)}</strong>" no RecipeTin Japan</p>
+        <div class="row g-3">
+            ${recipeTinResults.map(r => `
+                <div class="col-sm-6 col-lg-4">
+                    <div class="card search-card h-100" onclick="importRecipeTinResult('${escapeAttr(r.url)}')">
+                        ${r.fotoUrl ? `<img src="${escapeAttr(r.fotoUrl)}" class="card-img-top" alt="${escapeAttr(r.titulo)}">` : ''}
+                        <div class="card-body">
+                            <h6 class="card-title fw-bold">${escapeHtml(r.titulo)}</h6>
+                            <p class="card-text small text-muted">
+                                <i class="bi bi-globe2 me-1"></i>RecipeTin Japan
+                            </p>
+                        </div>
+                    </div>
+                </div>`).join('')}
+        </div>`;
+}
+
+async function importRecipeTinResult(url) {
     showView('recipe-view');
     document.getElementById('recipe-view').innerHTML = `
         <div class="text-center py-5">
             <div class="spinner-border text-success" role="status"></div>
             <div class="mt-2 text-muted">A importar receita...</div>
         </div>`;
-
     try {
         const res = await fetch(`/api/import-url?url=${encodeURIComponent(url)}`);
         if (!res.ok) {
@@ -463,10 +520,57 @@ async function importFromUrl() {
         }
         const receita = await res.json();
         renderRecipeCard(receita, true);
-        urlInput.value = '';
     } catch (err) {
         document.getElementById('recipe-view').innerHTML =
             `<div class="alert alert-danger m-4"><i class="bi bi-exclamation-triangle me-2"></i>${escapeHtml(err.message)}</div>`;
+    }
+}
+
+// =====================================================================
+// Edit saved recipe
+// =====================================================================
+async function showEditForm(id) {
+    try {
+        const res = await fetch(`/api/receitas/${encodeURIComponent(id)}`);
+        if (!res.ok) throw new Error();
+        const receita = await res.json();
+
+        currentEditingId = id;
+        showView('create-form');
+        document.getElementById('form-title').innerHTML = '<i class="bi bi-pencil me-2 text-primary"></i>Editar Receita';
+        document.getElementById('receita-form').reset();
+        document.getElementById('form-error').hidden = true;
+
+        document.getElementById('f-titulo').value = receita.titulo || '';
+        document.getElementById('f-origem').value = receita.origem || '';
+        document.getElementById('f-pessoas').value = receita.numeroPessoas || 4;
+        document.getElementById('f-dificuldade').value = receita.dificuldade || '';
+        document.getElementById('f-foto').value = receita.fotoUrl || '';
+        document.getElementById('f-tipo').value = receita.tipo || '';
+        toggleSubtipo();
+        if (receita.subtipo) document.getElementById('f-subtipo').value = receita.subtipo;
+
+        const ingList = document.getElementById('ingredientes-list');
+        ingList.innerHTML = '';
+        (receita.ingredientes || [{ nome: '', quantidade: '' }]).forEach(ing => {
+            addIngrediente();
+            const rows = ingList.querySelectorAll('.ingrediente-row');
+            const row = rows[rows.length - 1];
+            row.querySelector('.ing-qtd').value = ing.quantidade || '';
+            row.querySelector('.ing-nome').value = ing.nome || '';
+        });
+
+        const passosList = document.getElementById('passos-list');
+        passosList.innerHTML = '';
+        (receita.passosPreparacao || ['']).forEach(passo => {
+            addPasso();
+            const rows = passosList.querySelectorAll('.passo-row');
+            rows[rows.length - 1].querySelector('.passo-texto').value = passo;
+        });
+
+        document.getElementById('submit-btn').textContent = 'Guardar Alterações';
+    } catch {
+        showToast('Erro ao carregar a receita para edição.', 'danger');
     }
 }
 
@@ -477,11 +581,13 @@ function editImportedRecipe() {
     if (!currentApiReceita) return;
     const receita = currentApiReceita;
 
+    currentEditingId = null;
     showView('create-form');
     document.getElementById('form-title').innerHTML = '<i class="bi bi-pencil-square me-2 text-success"></i>Editar Receita Importada';
     document.getElementById('receita-form').reset();
     document.getElementById('form-error').hidden = true;
     document.getElementById('subtipo-group').hidden = true;
+    document.getElementById('submit-btn').textContent = 'Criar Receita';
 
     document.getElementById('f-titulo').value = receita.titulo || '';
     document.getElementById('f-origem').value = receita.origem || '';
@@ -567,7 +673,7 @@ document.addEventListener('DOMContentLoaded', () => {
     document.getElementById('search-input').addEventListener('keydown', e => {
         if (e.key === 'Enter') performSearch();
     });
-    document.getElementById('url-import-input').addEventListener('keydown', e => {
-        if (e.key === 'Enter') importFromUrl();
+    document.getElementById('recipetineats-search-input').addEventListener('keydown', e => {
+        if (e.key === 'Enter') performRecipeTinSearch();
     });
 });

@@ -4,6 +4,7 @@ import com.receitas.model.Receita;
 import com.receitas.service.MealDbService;
 import com.receitas.service.ReceitaService;
 import com.receitas.service.RecipeUrlService;
+import com.receitas.service.RecipeTinService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
@@ -24,11 +25,14 @@ public class ReceitaController {
     private final ReceitaService receitaService;
     private final MealDbService mealDbService;
     private final RecipeUrlService recipeUrlService;
+    private final RecipeTinService recipeTinService;
 
-    public ReceitaController(ReceitaService receitaService, MealDbService mealDbService, RecipeUrlService recipeUrlService) {
+    public ReceitaController(ReceitaService receitaService, MealDbService mealDbService,
+                             RecipeUrlService recipeUrlService, RecipeTinService recipeTinService) {
         this.receitaService = receitaService;
         this.mealDbService = mealDbService;
         this.recipeUrlService = recipeUrlService;
+        this.recipeTinService = recipeTinService;
     }
 
     @GetMapping("/receitas")
@@ -63,6 +67,19 @@ public class ReceitaController {
             return ResponseEntity.ok(criada);
         } catch (Exception e) {
             return ResponseEntity.internalServerError().body("Erro ao guardar receita.");
+        }
+    }
+
+    @PutMapping("/receitas/{id}")
+    public ResponseEntity<?> atualizarReceita(@PathVariable String id, @RequestBody Receita receita) {
+        String erro = validar(receita);
+        if (erro != null) return ResponseEntity.badRequest().body(erro);
+        try {
+            return receitaService.atualizarReceita(id, receita)
+                    .map(ResponseEntity::ok)
+                    .orElse(ResponseEntity.notFound().build());
+        } catch (Exception e) {
+            return ResponseEntity.internalServerError().body("Erro ao atualizar receita.");
         }
     }
 
@@ -104,6 +121,19 @@ public class ReceitaController {
             return ResponseEntity.ok(resultados);
         } catch (Exception e) {
             return ResponseEntity.internalServerError().body("Erro ao pesquisar na API externa.");
+        }
+    }
+
+    @GetMapping("/search-recipetineats")
+    public ResponseEntity<?> searchRecipeTin(@RequestParam String q) {
+        if (q == null || q.isBlank() || q.length() > 100) {
+            return ResponseEntity.badRequest().body("Parâmetro de pesquisa inválido.");
+        }
+        try {
+            List<RecipeTinService.Result> results = recipeTinService.search(q.trim());
+            return ResponseEntity.ok(results);
+        } catch (Exception e) {
+            return ResponseEntity.internalServerError().body("Erro ao pesquisar no RecipeTin Japan.");
         }
     }
 

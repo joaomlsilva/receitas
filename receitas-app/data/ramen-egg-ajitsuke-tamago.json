@@ -1,0 +1,33 @@
+{
+  "id" : "5aa89dd8-2b5c-48e9-8fce-55d14008e2a0",
+  "titulo" : "Ramen Egg (Ajitsuke Tamago)",
+  "origem" : "japan.recipetineats.com",
+  "tipo" : "internacional",
+  "subtipo" : null,
+  "numeroPessoas" : 2,
+  "dificuldade" : "intermedio",
+  "ingredientes" : [ {
+    "nome" : "eggs (chilled)",
+    "quantidade" : "4"
+  }, {
+    "nome" : "soy sauce",
+    "quantidade" : "4 tbsp"
+  }, {
+    "nome" : "mirin",
+    "quantidade" : "4 tbsp"
+  }, {
+    "nome" : "water",
+    "quantidade" : "2 tbsp"
+  }, {
+    "nome" : "sugar",
+    "quantidade" : "1 tbsp"
+  }, {
+    "nome" : "cooking sake",
+    "quantidade" : "1 tbsp"
+  }, {
+    "nome" : "bonito flakes",
+    "quantidade" : "5g"
+  } ],
+  "passosPreparacao" : [ "Put all the Marinade ingredients into a small saucepan and bring it to a boil. Cook for a minute or so, ensuring that the sugar dissolves completely.", "Put the sauce into a small bowl through a sieve to remove the bonito flakes. Press down the bonito flakes in the sieve with the back of a spoon and squeeze out the liquid (note 2). Let it cool.", "Fill a saucepan with water deep enough to boil eggs and bring it to a boil.", "(Optional but recommended) Using a needle and a small hammer or the side of the kitchen scissors, make a tiny hole on the round end of the egg (see the photos in post).", "Using a ladle, gently place the eggs one-by-one in the boiling water. You may want to gently roll the eggs for the first ½-1 minutes to position the egg yolk in the middle.", "Reduce the heat to medium and boil for 6½ minutes.", "Drain the boiling water and transfer the eggs to a bowl of iced water to quickly cool them down (note 4).", "Gently crack the eggshell all around the egg, then peel the shells. Make sure that you remove the thin membrane pieces on the egg.", "Pat-dry the boiled eggs and place them in a zip lock bag.", "Add the marinade to the bag with eggs. Remove air from the bag as much as possible, then seal.", "Store in the fridge for 8-10 hours. Rotate the eggs after 4 hours to evenly marinate the eggs.", "Cut each egg in half using a thread by wrapping the thread around the egg or sliding the thread through the egg.", "Serve two halves as a topping for a ramen, an izakaya-style side dish, or on a cooked rice." ],
+  "fotoUrl" : "https://japan.recipetineats.com/wp-content/uploads/2022/01/Ramen_egg_7165sq.jpg"
+}

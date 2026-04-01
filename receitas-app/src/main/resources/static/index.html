@@ -68,17 +68,17 @@
                 <div id="search-error" class="text-danger small mt-1" hidden></div>
             </div>
 
-            <!-- Import from URL -->
+            <!-- RecipeTin Japan Search -->
             <div class="sidebar-section sidebar-search">
-                <h6 class="sidebar-label">Importar de URL</h6>
+                <h6 class="sidebar-label">Pesquisar (RecipeTin Japan)</h6>
                 <div class="input-group input-group-sm">
-                    <input type="url" id="url-import-input" class="form-control"
-                           placeholder="https://japan.recipetineats.com/..." maxlength="2000">
-                    <button class="btn btn-outline-success" onclick="importFromUrl()">
-                        <i class="bi bi-box-arrow-in-down"></i>
+                    <input type="text" id="recipetineats-search-input" class="form-control"
+                           placeholder="Ex: ramen, sushi..." maxlength="100">
+                    <button class="btn btn-outline-success" onclick="performRecipeTinSearch()">
+                        <i class="bi bi-search"></i>
                     </button>
                 </div>
-                <div id="url-import-error" class="text-danger small mt-1" hidden></div>
+                <div id="recipetineats-search-error" class="text-danger small mt-1" hidden></div>
             </div>
         </aside>
 
@@ -186,7 +186,7 @@
                             <div class="col-12">
                                 <div id="form-error" class="alert alert-danger" hidden></div>
                                 <div class="d-flex gap-2 flex-wrap">
-                                    <button type="submit" class="btn btn-primary">
+                                    <button type="submit" id="submit-btn" class="btn btn-primary">
                                         <i class="bi bi-check-lg me-1"></i>Criar Receita
                                     </button>
                                     <button type="button" class="btn btn-outline-secondary" onclick="showHome()">

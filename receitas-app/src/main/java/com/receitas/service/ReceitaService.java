@@ -54,6 +54,24 @@ public class ReceitaService {
         return receita;
     }
 
+    public Optional<Receita> atualizarReceita(String id, Receita updated) throws IOException {
+        if (!isValidUUID(id)) return Optional.empty();
+        Optional<Receita> existing = receitas.stream().filter(r -> r.getId().equals(id)).findFirst();
+        if (existing.isEmpty()) return Optional.empty();
+        Receita r = existing.get();
+        r.setTitulo(updated.getTitulo());
+        r.setOrigem(updated.getOrigem());
+        r.setTipo(updated.getTipo());
+        r.setSubtipo(updated.getSubtipo());
+        r.setNumeroPessoas(updated.getNumeroPessoas());
+        r.setDificuldade(updated.getDificuldade());
+        r.setIngredientes(updated.getIngredientes());
+        r.setPassosPreparacao(updated.getPassosPreparacao());
+        r.setFotoUrl(updated.getFotoUrl());
+        salvarReceita(r);
+        return Optional.of(r);
+    }
+
     public boolean eliminarReceita(String id) throws IOException {
         if (!isValidUUID(id)) return false;
         boolean removed = receitas.removeIf(r -> r.getId().equals(id));

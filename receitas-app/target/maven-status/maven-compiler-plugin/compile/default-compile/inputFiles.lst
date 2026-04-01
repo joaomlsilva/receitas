@@ -1,6 +1,7 @@
 /workspaces/receitas/receitas-app/src/main/java/com/receitas/model/Receita.java
 /workspaces/receitas/receitas-app/src/main/java/com/receitas/service/ReceitaService.java
 /workspaces/receitas/receitas-app/src/main/java/com/receitas/controller/ReceitaController.java
+/workspaces/receitas/receitas-app/src/main/java/com/receitas/service/RecipeTinService.java
 /workspaces/receitas/receitas-app/src/main/java/com/receitas/ReceitasApplication.java
 /workspaces/receitas/receitas-app/src/main/java/com/receitas/service/MealDbService.java
 /workspaces/receitas/receitas-app/src/main/java/com/receitas/service/RecipeUrlService.java
