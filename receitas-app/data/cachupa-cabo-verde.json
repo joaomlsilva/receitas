@@ -1,0 +1,48 @@
+{
+  "id" : "f3c1a2e7-5b84-4f19-a3d6-8e2c7b0d9f41",
+  "titulo" : "Cachupa Cabo Verde",
+  "origem" : "Nelida",
+  "tipo" : "carne",
+  "subtipo" : "cozido",
+  "numeroPessoas" : 6,
+  "dificuldade" : "intermedio",
+  "ingredientes" : [ {
+    "nome" : "Carne de vaca",
+    "quantidade" : "500g"
+  }, {
+    "nome" : "Pés de porco",
+    "quantidade" : "2 unidades"
+  }, {
+    "nome" : "Bacon",
+    "quantidade" : "250g"
+  }, {
+    "nome" : "Chouriço de carne",
+    "quantidade" : "1 unidade"
+  }, {
+    "nome" : "Morcela",
+    "quantidade" : "1 unidade"
+  }, {
+    "nome" : "Milho branco para cachupa",
+    "quantidade" : "250g"
+  }, {
+    "nome" : "Milho amarelo para cachupa",
+    "quantidade" : "250g"
+  }, {
+    "nome" : "Feijão Cabo Verde",
+    "quantidade" : "500g"
+  }, {
+    "nome" : "Alho",
+    "quantidade" : "4 dentes"
+  }, {
+    "nome" : "Cebola",
+    "quantidade" : "2 unidades"
+  }, {
+    "nome" : "Azeite",
+    "quantidade" : "q.b."
+  }, {
+    "nome" : "Sal e pimenta",
+    "quantidade" : "q.b."
+  } ],
+  "passosPreparacao" : [ "De véspera, colocar o milho e o feijão de molho em água fria durante a noite.", "Escorrer e levar o milho e o feijão a cozer numa panela grande com bastante água a ferver, em lume médio-alto, até ficarem macios (1h30 a 2h, ou usar panela de pressão).", "Numa frigideira ou panela larga, preparar o refogado: refogar o alho e a cebola picados no azeite em lume médio até dourarem.", "Juntar a carne de vaca, os pés de porco e o bacon ao refogado, e deixar refogar bem até a carne ficar selada e com cor.", "Quando o milho e o feijão estiverem cozidos, misturar tudo na panela grande: o refogado com as carnes, o chouriço e a morcela cortados em rodelas.", "Deixar cozinhar tudo em conjunto em lume brando, mexendo ocasionalmente, até as carnes estarem completamente cozidas e os sabores bem integrados (cerca de 30 a 45 minutos).", "Retificar o sal e a pimenta e servir bem quente." ],
+  "fotoUrl" : null
+}
