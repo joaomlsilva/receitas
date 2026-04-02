@@ -1,0 +1,33 @@
+{
+  "id" : "c7a2f1e8-2d6b-49b1-bb2f-2c3e8d1f4a7c",
+  "titulo" : "Camarões com Leite de Coco",
+  "origem" : "Tradicional Portuguesa",
+  "tipo" : "marisco",
+  "subtipo" : null,
+  "numeroPessoas" : 4,
+  "dificuldade" : "intermedio",
+  "ingredientes" : [ {
+    "nome" : "Leite de coco",
+    "quantidade" : "5 a 6 dl"
+  }, {
+    "nome" : "Cebola",
+    "quantidade" : "1 unidade"
+  }, {
+    "nome" : "Camarões",
+    "quantidade" : "1 Kg"
+  }, {
+    "nome" : "Tomates",
+    "quantidade" : "2 unidades"
+  }, {
+    "nome" : "Açafrão",
+    "quantidade" : "1 colher de café"
+  }, {
+    "nome" : "Sal e piripiri",
+    "quantidade" : "q.b."
+  }, {
+    "nome" : "Azeite",
+    "quantidade" : "1 dl"
+  } ],
+  "passosPreparacao" : [ "Descasque os camarões crus e reserve.", "Num tacho, aqueça o azeite e aloure a cebola picada.", "Adicione os tomates sem peles nem sementes e deixe cozer até desfazerem.", "Junte o miolo dos camarões e mexa por 2 minutos para tomar gosto.", "Adicione o leite de coco com o açafrão, malagueta e sal.", "Deixe ferver em lume brando por 15 minutos.", "Sirva numa travessa, acompanhado de arroz branco." ],
+  "fotoUrl" : null
+}

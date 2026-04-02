@@ -1,0 +1,30 @@
+{
+  "id" : "f3e8c9d2-7a5b-4c8f-9d3e-1b7a2c6e0f5b",
+  "titulo" : "Esparguete com Cogumelos e Caril",
+  "origem" : "Tradicional Portuguesa",
+  "tipo" : "massas",
+  "subtipo" : null,
+  "numeroPessoas" : 4,
+  "dificuldade" : "intermedio",
+  "ingredientes" : [ {
+    "nome" : "Esparguete",
+    "quantidade" : "1 pacote"
+  }, {
+    "nome" : "Cogumelos frescos ou congelados",
+    "quantidade" : "q.b."
+  }, {
+    "nome" : "Caril",
+    "quantidade" : "q.b."
+  }, {
+    "nome" : "Alho",
+    "quantidade" : "2 a 3 dentes"
+  }, {
+    "nome" : "Natas",
+    "quantidade" : "2 pacotes"
+  }, {
+    "nome" : "Azeite",
+    "quantidade" : "q.b."
+  } ],
+  "passosPreparacao" : [ "Coza o esparguete em água fervente com sal.", "Noutra panela, aqueça azeite e junte o alho picado.", "Adicione os cogumelos e deixe amolecer, juntando um pouco de caril.", "Misture o esparguete no refogado e cubra com as natas.", "Retifique o sal e sirva." ],
+  "fotoUrl" : null
+}

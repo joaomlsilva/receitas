@@ -1,0 +1,30 @@
+{
+  "id": "1a2b3c4d-0001-4f19-a3d6-8e2c7b0d9f42",
+  "titulo": "Javali no Forno",
+  "origem": "Tradicional Portuguesa",
+  "tipo": "carne",
+  "subtipo": "caça",
+  "numeroPessoas": 4,
+  "dificuldade": "intermedio",
+  "ingredientes": [
+    { "nome": "Carne de javali", "quantidade": "1 Kg" },
+    { "nome": "Alecrim", "quantidade": "1 raminho" },
+    { "nome": "Alho", "quantidade": "6 dentes" },
+    { "nome": "Cebola", "quantidade": "2 unidades" },
+    { "nome": "Folhas de louro", "quantidade": "4 unidades" },
+    { "nome": "Tomilho", "quantidade": "1 raminho" },
+    { "nome": "Vinho branco", "quantidade": "1 litro" },
+    { "nome": "Azeite", "quantidade": "q.b." },
+    { "nome": "Sal", "quantidade": "q.b." }
+  ],
+  "passosPreparacao": [
+    "Corte os dentes de alho em lâminas finas, pique todas as ervas (menos as folhas de louro) e corte a cebola em rodelas.",
+    "Misture todos os ingredientes com o vinho.",
+    "Cubra o fundo de um recipiente com um pouco do molho e disponha por cima as peças de carne limpas.",
+    "Despeje por cima o restante molho da marinada, cubra com película aderente e reserve em lugar fresco durante 24 a 48 horas.",
+    "Após o tempo de repouso, coloque a carne num tabuleiro com várias nozes de margarina e despeje a marinada por cima.",
+    "Leve ao forno a 220ºC durante aproximadamente 1 hora, regando a carne com o molho do tabuleiro ocasionalmente.",
+    "Sirva com batatas assadas, preferencialmente no mesmo tabuleiro da carne."
+  ],
+  "fotoUrl": null
+}

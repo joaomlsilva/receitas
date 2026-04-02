@@ -1,0 +1,48 @@
+{
+  "id" : "f9e1c7d2-8b4a-4d25-b6d9-0b2f3c7e9f1a",
+  "titulo" : "Arroz de Marisco",
+  "origem" : "Tradicional Portuguesa",
+  "tipo" : "marisco",
+  "subtipo" : null,
+  "numeroPessoas" : 4,
+  "dificuldade" : "intermedio",
+  "ingredientes" : [ {
+    "nome" : "Tamboril",
+    "quantidade" : "600g"
+  }, {
+    "nome" : "Camarão",
+    "quantidade" : "500g"
+  }, {
+    "nome" : "Conquilhas",
+    "quantidade" : "500g"
+  }, {
+    "nome" : "Arroz",
+    "quantidade" : "400g"
+  }, {
+    "nome" : "Azeite",
+    "quantidade" : "1 dl"
+  }, {
+    "nome" : "Cebola",
+    "quantidade" : "2 unidades"
+  }, {
+    "nome" : "Alho",
+    "quantidade" : "4 dentes"
+  }, {
+    "nome" : "Tomate",
+    "quantidade" : "2 unidades maduros"
+  }, {
+    "nome" : "Vinho branco",
+    "quantidade" : "1 dl"
+  }, {
+    "nome" : "Coentros",
+    "quantidade" : "1 molhinho"
+  }, {
+    "nome" : "Sal e piripiri",
+    "quantidade" : "q.b."
+  }, {
+    "nome" : "Louro",
+    "quantidade" : "1 folha"
+  } ],
+  "passosPreparacao" : [ "Mergulhe as conquilhas em água salgada para retirar a areia e deixe algumas horas.", "Amanhe o tamboril e corte em postas, deixando em água fria.", "Coza os camarões e aproveite a água para abrir as conquilhas.", "Descasque os camarões e retire os miolos das conquilhas, guardando a água da cozedura.", "Pique finamente alho e cebolas, escalde os tomates, retire peles e sementes e corte em cubos.", "Aqueça o azeite num tacho, junte alho e cebola e refogue ligeiramente.", "Adicione o tomate e deixe reduzir com vinho branco.", "Junte os pedaços de tamboril, arroz e um pouco de caldo da cozedura, acrescente louro e coentros.", "Tempere com sal e piripiri, deixe cozinhar e, quase no final, adicione os mariscos e ajuste os temperos.", "Finalize deixando o arroz 'a correr', com suficiente caldo." ],
+  "fotoUrl" : null
+}

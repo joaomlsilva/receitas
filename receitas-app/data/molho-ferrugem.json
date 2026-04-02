@@ -1,0 +1,35 @@
+{
+    "id": "a6d9e7f4-2c5b-4f1e-8b3d-1f7c6e5a9d2b",
+    "titulo": "Molho Ferrugem",
+    "origem": "Receita Tradicional",
+    "tipo": "molho",
+    "subtipo": "carne",
+    "numeroPessoas": 4,
+    "dificuldade": "avancado",
+    "ingredientes": [
+      { "nome": "Salsinha picada", "quantidade": "3 colheres de sopa" },
+      { "nome": "Extrato de tomate", "quantidade": "2 colheres de chá" },
+      { "nome": "Bacon picado", "quantidade": "2 colheres de sopa" },
+      { "nome": "Manteiga", "quantidade": "3 colheres de sopa" },
+      { "nome": "Farinha", "quantidade": "3 colheres de sopa" },
+      { "nome": "Caldo de carne", "quantidade": "1 e ¼ chávena" },
+      { "nome": "Cogumelos", "quantidade": "¼ chávena" },
+      { "nome": "Tomate sem peles e sementes", "quantidade": "1 unidade" },
+      { "nome": "Cebola picada", "quantidade": "1 unidade" },
+      { "nome": "Salsão", "quantidade": "1 talo" },
+      { "nome": "Cenoura pequena", "quantidade": "1 unidade" },
+      { "nome": "Folha de louro", "quantidade": "1 unidade" },
+      { "nome": "Pimenta do reino", "quantidade": "q.b." },
+      { "nome": "Sal", "quantidade": "q.b." }
+    ],
+    "passosPreparacao": [
+      "Pique bacon, cebola, salsão e cogumelos. Corte a cenoura em rodelas médias.",
+      "Derreta a manteiga na panela e acrescente os legumes e bacon. Frite por 10 minutos, mexendo sempre.",
+      "Continue fritando até dourar levemente.",
+      "Junte a farinha, baixe o fogo e mexa continuamente até ficar quase marrom.",
+      "Adicione gradualmente o caldo de carne, volte ao fogo e cozinhe mexendo sem parar até engrossar.",
+      "Acrescente os restantes ingredientes, exceto sal e pimenta. Cozinhe lentamente por 45 min a 1h.",
+      "Coe o molho, acerte o sal e pimenta e aqueça antes de servir."
+    ],
+    "fotoUrl": null
+  }

@@ -1,0 +1,39 @@
+{
+  "id" : "b92ce84d-1c6f-4e70-820b-9f023de477a1",
+  "titulo" : "Açorda de Marisco",
+  "origem" : "Tradicional Portuguesa",
+  "tipo" : "marisco",
+  "subtipo" : null,
+  "numeroPessoas" : 4,
+  "dificuldade" : "intermedio",
+  "ingredientes" : [ {
+    "nome" : "Camarão",
+    "quantidade" : "500g"
+  }, {
+    "nome" : "Berbigão",
+    "quantidade" : "500g"
+  }, {
+    "nome" : "Amêijoas",
+    "quantidade" : "500g"
+  }, {
+    "nome" : "Pão",
+    "quantidade" : "500g"
+  }, {
+    "nome" : "Alho",
+    "quantidade" : "3 dentes"
+  }, {
+    "nome" : "Azeite",
+    "quantidade" : "4 colheres de sopa"
+  }, {
+    "nome" : "Coentros",
+    "quantidade" : "1 molho pequeno"
+  }, {
+    "nome" : "Ovos",
+    "quantidade" : "3 unidades"
+  }, {
+    "nome" : "Sal, pimenta e piripiri",
+    "quantidade" : "q.b."
+  } ],
+  "passosPreparacao" : [ "Coza os camarões em pouca água e coe esse líquido.", "Abra as amêijoas e os berbigões em recipientes separados e coe as respetivas águas.", "Junte a água dos três mariscos e leve a reduzir.", "Regue o pão com esta água de marisco.", "Aloure os dentes de alho com o azeite e adicione o raminho de coentros por 1 minuto.", "Junte o pão e mexa até obter uma açorda homogénea e mole.", "Retire os coentros e tempere com sal, pimenta e piripiri.", "Introduza os mariscos na açorda e mexa ligeiramente.", "Retire do lume, junte imediatamente os ovos, mexa e sirva sem demora." ],
+  "fotoUrl" : null
+}

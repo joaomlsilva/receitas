@@ -1,0 +1,36 @@
+{
+  "id" : "f6a1b8c3-9d2e-4b1f-afe5-1d3b7a9c5e21",
+  "titulo" : "Canja de Bacalhau",
+  "origem" : "Receita Tradicional",
+  "tipo" : "sopas",
+  "subtipo" : null,
+  "numeroPessoas" : 4,
+  "dificuldade" : "intermedio",
+  "ingredientes" : [ {
+    "nome" : "Posta de bacalhau",
+    "quantidade" : "1 unidade"
+  }, {
+    "nome" : "Cebola",
+    "quantidade" : "1 unidade"
+  }, {
+    "nome" : "Azeite",
+    "quantidade" : "3 colheres de sopa"
+  }, {
+    "nome" : "Alho",
+    "quantidade" : "2 dentes"
+  }, {
+    "nome" : "Folha de louro",
+    "quantidade" : "1 unidade"
+  }, {
+    "nome" : "Arroz",
+    "quantidade" : "4 colheres de sopa"
+  }, {
+    "nome" : "Coentros picados",
+    "quantidade" : "1 colher de sopa"
+  }, {
+    "nome" : "Sal",
+    "quantidade" : "q.b."
+  } ],
+  "passosPreparacao" : [ "Demolhe o bacalhau de um dia para o outro.", "No dia seguinte, leve-o a cozer em água temperada com sal.", "Pique a cebola e os alhos e refogue-os no azeite com a folha de louro.", "Quando a cebola estiver macia, junte a água da cozedura do bacalhau e deixe levantar fervura.", "Adicione o arroz, os coentros e o bacalhau desfiado.", "Retifique o sal e deixe ferver cerca de 25 minutos." ],
+  "fotoUrl" : null
+}

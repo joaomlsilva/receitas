@@ -1,0 +1,30 @@
+{
+  "id" : "c1d7e8f2-5a4b-4c3d-b6e1-2f3a7c9b8d56",
+  "titulo" : "Sopa de Cebola",
+  "origem" : "Carlos Sá",
+  "tipo" : "sopas",
+  "subtipo" : null,
+  "numeroPessoas" : 4,
+  "dificuldade" : "intermedio",
+  "ingredientes" : [ {
+    "nome" : "Beterrabas grandes ou médias",
+    "quantidade" : "2 grandes ou 3 médias"
+  }, {
+    "nome" : "Cebolas",
+    "quantidade" : "800g"
+  }, {
+    "nome" : "Queijo",
+    "quantidade" : "80g"
+  }, {
+    "nome" : "Pão",
+    "quantidade" : "1 ou 2 fatias por pessoa"
+  }, {
+    "nome" : "Azeite",
+    "quantidade" : "q.b."
+  }, {
+    "nome" : "Cognac ou brandy",
+    "quantidade" : "1/2 cálice"
+  } ],
+  "passosPreparacao" : [ "Descasque as cebolas e corte em rodelas finas.", "Aqueça o azeite e refogue as cebolas até ficarem translúcidas. Tempere com sal.", "Coza durante 30 minutos com o recipiente tapado em lume médio.", "Enquanto isso, torre o pão e rale o queijo.", "Quando faltarem 15 minutos para terminar a cozedura, adicione o cognac e ajuste o sal.", "Coloque em cada prato as fatias de pão, um pouco de queijo ralado e adicione a sopa por cima.", "Polvilhe mais queijo ralado e leve ao forno para gratinar até dourar.", "Sirva bem quente." ],
+  "fotoUrl" : null
+}

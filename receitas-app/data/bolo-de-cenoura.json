@@ -1,0 +1,63 @@
+{
+  "id" : "d2b1f6a3-9c5a-4c28-a1d8-2f7b9e4d1f6a",
+  "titulo" : "Bolo de Cenoura",
+  "origem" : "Rachel Allen",
+  "tipo" : "doces",
+  "subtipo" : null,
+  "numeroPessoas" : 8,
+  "dificuldade" : "intermedio",
+  "ingredientes" : [ {
+    "nome" : "Óleo vegetal",
+    "quantidade" : "140 ml"
+  }, {
+    "nome" : "Ovos",
+    "quantidade" : "2 unidades"
+  }, {
+    "nome" : "Açúcar mascavo",
+    "quantidade" : "200 g"
+  }, {
+    "nome" : "Cenoura ralada",
+    "quantidade" : "300 g"
+  }, {
+    "nome" : "Passas (opcional)",
+    "quantidade" : "100 g"
+  }, {
+    "nome" : "Nozes ou pecãs picadas (opcional)",
+    "quantidade" : "75 g"
+  }, {
+    "nome" : "Farinha com fermento",
+    "quantidade" : "180 g"
+  }, {
+    "nome" : "Sal",
+    "quantidade" : "uma pitada"
+  }, {
+    "nome" : "Bicarbonato de sódio",
+    "quantidade" : "1/2 colher de chá"
+  }, {
+    "nome" : "Canela em pó",
+    "quantidade" : "1 colher de chá"
+  }, {
+    "nome" : "Noz-moscada",
+    "quantidade" : "1/2 colher de chá"
+  }, {
+    "nome" : "Mixed spice",
+    "quantidade" : "1/2 colher de chá"
+  }, {
+    "nome" : "Queijo creme",
+    "quantidade" : "250 g"
+  }, {
+    "nome" : "Manteiga à temperatura ambiente",
+    "quantidade" : "50 g"
+  }, {
+    "nome" : "Extrato de baunilha",
+    "quantidade" : "1 colher de chá"
+  }, {
+    "nome" : "Açúcar de pasteleiro",
+    "quantidade" : "275 g"
+  }, {
+    "nome" : "Raspas de laranja",
+    "quantidade" : "1 unidade"
+  } ],
+  "passosPreparacao" : [ "Pré-aqueça o forno a 150ºC/gás 2.", "Forre uma forma tipo bolo inglês com papel vegetal, deixando o papel ultrapassar a forma.", "Bata os ovos, adicione o óleo, açúcar mascavo, cenoura ralada, passas e nozes picadas.", "Peneire os ingredientes secos e junte à mistura, envolvendo com espátula.", "Despeje a massa na forma, alise a superfície e leve ao forno por 1 a 1h15, até o palito sair limpo.", "Deixe arrefecer na forma por 5 minutos e retire com cuidado.", "Para a cobertura, bata o queijo creme com a manteiga, adicione baunilha, açúcar de pasteleiro e raspas de laranja.", "Espalhe a cobertura uniformemente sobre o bolo, mergulhando a espátula em água morna se necessário." ],
+  "fotoUrl" : null
+}

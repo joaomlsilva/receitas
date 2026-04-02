@@ -1,0 +1,30 @@
+{
+  "id" : "b7c2d1e9-6f4a-4c9b-8a3d-2e5f7b9c6d1e",
+  "titulo" : "Refogado Base para Estufados de Carne",
+  "origem" : "Receita Tradicional",
+  "tipo" : "temperos",
+  "subtipo" : null,
+  "numeroPessoas" : 6,
+  "dificuldade" : "intermedio",
+  "ingredientes" : [ {
+    "nome" : "Azeite",
+    "quantidade" : "4 colheres de sopa"
+  }, {
+    "nome" : "Alho",
+    "quantidade" : "2 dentes"
+  }, {
+    "nome" : "Cebola",
+    "quantidade" : "1 unidade"
+  }, {
+    "nome" : "Polpa de tomate",
+    "quantidade" : "1 chávena"
+  }, {
+    "nome" : "Cenoura",
+    "quantidade" : "1 unidade"
+  }, {
+    "nome" : "Sal",
+    "quantidade" : "q.b."
+  } ],
+  "passosPreparacao" : [ "Corte os dentes de alho em lâminas finas e pique a cebola.", "Leve ao lume baixo num tacho o azeite, o alho, a cebola e o sal até ficarem aloirados.", "Junte a polpa de tomate e a cenoura cortada em retângulos de 1 a 2 cm, mexendo durante 1 minuto sem deixar a polpa queimar.", "Neste ponto, coloque a carne cortada em cubos ou inteira (uma peça não muito grande), cubra com água, vinho ou ambos, conforme o gosto.", "Deixe cozinhar tapado em lume brando durante 30 a 40 minutos." ],
+  "fotoUrl" : null
+}

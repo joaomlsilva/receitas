@@ -1,0 +1,45 @@
+{
+  "id" : "a2b9d8f5-4c7e-4b3f-a1d2-9e6c3b7f2a41",
+  "titulo" : "Patê de Camarão",
+  "origem" : "Receita Tradicional",
+  "tipo" : "petiscos",
+  "subtipo" : null,
+  "numeroPessoas" : 4,
+  "dificuldade" : "intermedio",
+  "ingredientes" : [ {
+    "nome" : "Camarão cru e descascado",
+    "quantidade" : "250g"
+  }, {
+    "nome" : "Cebola pequena picada",
+    "quantidade" : "1 unidade"
+  }, {
+    "nome" : "Alho picado",
+    "quantidade" : "2 dentes"
+  }, {
+    "nome" : "Azeite",
+    "quantidade" : "3 colheres de sopa"
+  }, {
+    "nome" : "Tomate pequeno",
+    "quantidade" : "1 unidade"
+  }, {
+    "nome" : "Maionese",
+    "quantidade" : "q.b."
+  }, {
+    "nome" : "Sal",
+    "quantidade" : "q.b."
+  }, {
+    "nome" : "Sumo de limão",
+    "quantidade" : "q.b."
+  }, {
+    "nome" : "Salsa picada",
+    "quantidade" : "4 pezinhos"
+  }, {
+    "nome" : "Coentros picados",
+    "quantidade" : "4 pezinhos"
+  }, {
+    "nome" : "Mostarda Savora",
+    "quantidade" : "1 colher de sopa"
+  } ],
+  "passosPreparacao" : [ "Tempere o camarão com sal e sumo de limão.", "Refogue a cebola e o alho no azeite numa frigideira.", "Adicione o tomate pelado e sem sementes e os camarões temperados e escorridos. Refogue por 3 minutos.", "Retire do lume e deixe arrefecer.", "Bata o preparado no copo misturador com as ervas picadas.", "Transfira para uma taça, acrescente a mostarda e a maionese, e misture até obter uma pasta cremosa.", "Sirva com bolachas de água e sal ou tostas." ],
+  "fotoUrl" : null
+}

@@ -1,0 +1,33 @@
+{
+  "id" : "a8b2c9d4-3f5e-4d7a-82e1-6f7a2c1d9b34",
+  "titulo" : "Sopa de Camarão",
+  "origem" : "Receita Tradicional",
+  "tipo" : "sopas",
+  "subtipo" : null,
+  "numeroPessoas" : 4,
+  "dificuldade" : "intermedio",
+  "ingredientes" : [ {
+    "nome" : "Camarões frescos",
+    "quantidade" : "120g"
+  }, {
+    "nome" : "Caldo de carne ou peixe",
+    "quantidade" : "2L"
+  }, {
+    "nome" : "Margarina",
+    "quantidade" : "120g"
+  }, {
+    "nome" : "Farinha",
+    "quantidade" : "100g"
+  }, {
+    "nome" : "Natas",
+    "quantidade" : "100g"
+  }, {
+    "nome" : "Gema de ovo",
+    "quantidade" : "1 unidade"
+  }, {
+    "nome" : "Vinho do Porto branco seco",
+    "quantidade" : "2 colheres de chá"
+  } ],
+  "passosPreparacao" : [ "Derreta 100g de margarina numa panela de fundo espesso.", "Junte a farinha e deixe alourar, mexendo sempre.", "Adicione o caldo de carne ou peixe aos poucos, mexendo bem. Se a sopa ficar demasiado espessa, acrescente mais caldo.", "Tape e deixe ferver em lume brando cerca de 10 minutos.", "Descasque os camarões e salteie-os no restante da margarina durante 3 minutos.", "Junte os camarões à sopa.", "Misture as natas e a gema, adicione à sopa mexendo com cuidado.", "Adicione o vinho do Porto e sirva numa terrina." ],
+  "fotoUrl" : null
+}

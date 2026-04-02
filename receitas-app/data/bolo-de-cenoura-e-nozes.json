@@ -1,0 +1,51 @@
+{
+  "id" : "c1e7b9d3-8f6a-4d5e-b2c9-7f3a1e4d6b2f",
+  "titulo" : "Bolo de Cenoura e Nozes",
+  "origem" : "Rachel Allen",
+  "tipo" : "doces",
+  "subtipo" : null,
+  "numeroPessoas" : 8,
+  "dificuldade" : "intermedio",
+  "ingredientes" : [ {
+    "nome" : "Ovos",
+    "quantidade" : "2 unidades"
+  }, {
+    "nome" : "Óleo de girassol ou vegetal",
+    "quantidade" : "150 ml"
+  }, {
+    "nome" : "Açúcar castanho claro",
+    "quantidade" : "200 g"
+  }, {
+    "nome" : "Cenouras raladas",
+    "quantidade" : "300 g"
+  }, {
+    "nome" : "Nozes pecã ou nozes picadas",
+    "quantidade" : "75 g"
+  }, {
+    "nome" : "Farinha com fermento",
+    "quantidade" : "175 g"
+  }, {
+    "nome" : "Bicarbonato de sódio",
+    "quantidade" : "1/2 colher de chá"
+  }, {
+    "nome" : "Canela",
+    "quantidade" : "1 colher de chá"
+  }, {
+    "nome" : "Mixed spice",
+    "quantidade" : "1 colher de chá"
+  }, {
+    "nome" : "Sal",
+    "quantidade" : "uma pitada"
+  }, {
+    "nome" : "Queijo creme",
+    "quantidade" : "100 g"
+  }, {
+    "nome" : "Laranja",
+    "quantidade" : "1 unidade"
+  }, {
+    "nome" : "Açúcar de pasteleiro",
+    "quantidade" : "200 g"
+  } ],
+  "passosPreparacao" : [ "Pré-aqueça o forno a 150ºC / 130ºC ventilador / gás 2.", "Forre uma forma tipo bolo inglês com papel vegetal, deixando o papel ultrapassar a forma para retirar o bolo facilmente.", "Misture a farinha, bicarbonato de sódio, canela, mixed spice e sal.", "Bata os ovos numa tigela, junte o óleo, o açúcar, a cenoura ralada e as nozes picadas.", "Incorpore a mistura da farinha aos ingredientes líquidos, envolvendo com uma espátula até não haver grumos.", "Verta a mistura na forma, alise a superfície e leve ao forno por 1 hora a 1 hora e 15 minutos, ou até o palito sair limpo.", "Deixe arrefecer na forma por 5 minutos, retire com cuidado usando o papel vegetal e deixe arrefecer completamente.", "Para a cobertura, bata o queijo creme, o sumo e raspa da laranja e o açúcar de pasteleiro até obter um creme homogéneo.", "Espalhe a cobertura uniformemente sobre o bolo." ],
+  "fotoUrl" : null
+}

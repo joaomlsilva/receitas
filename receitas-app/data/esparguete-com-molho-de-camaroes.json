@@ -1,0 +1,45 @@
+{
+  "id" : "e2b7f1c3-6d4f-4f8b-9a5c-3f7d1e2b0a6f",
+  "titulo" : "Esparguete com Molho de Camarões",
+  "origem" : "Tradicional Portuguesa",
+  "tipo" : "massas",
+  "subtipo" : null,
+  "numeroPessoas" : 4,
+  "dificuldade" : "intermedio",
+  "ingredientes" : [ {
+    "nome" : "Esparguete",
+    "quantidade" : "400g"
+  }, {
+    "nome" : "Camarão fresco",
+    "quantidade" : "1/2 Kg"
+  }, {
+    "nome" : "Tomates",
+    "quantidade" : "6 unidades"
+  }, {
+    "nome" : "Azeite",
+    "quantidade" : "2 colheres de sopa"
+  }, {
+    "nome" : "Cebola",
+    "quantidade" : "1 unidade"
+  }, {
+    "nome" : "Concentrado de tomate",
+    "quantidade" : "2 colheres de sopa"
+  }, {
+    "nome" : "Açúcar",
+    "quantidade" : "1 colher de chá"
+  }, {
+    "nome" : "Orégãos",
+    "quantidade" : "1 colher de café"
+  }, {
+    "nome" : "Alho",
+    "quantidade" : "1 dente"
+  }, {
+    "nome" : "Queijo parmesão ralado",
+    "quantidade" : "1/2 chávena de chá"
+  }, {
+    "nome" : "Sal e pimenta",
+    "quantidade" : "q.b."
+  } ],
+  "passosPreparacao" : [ "Descasque, limpe e tempere os camarões com sal e pimenta. Reserve.", "Lave as cabeças dos camarões e ferva com um copo de água, depois coe e reserve a água.", "Aqueça azeite, refogue o alho e a cebola, junte os camarões, a polpa de tomate passada, o açúcar, a água das cabeças dos camarões, o concentrado de tomate, os orégãos e o sal.", "Deixe o molho engrossar.", "Coza o esparguete, escorra e misture com metade do molho.", "Cubra o esparguete com o restante molho e o queijo ralado.", "Sirva de imediato." ],
+  "fotoUrl" : null
+}

@@ -1,0 +1,42 @@
+{
+  "id" : "a3f9b2c7-5e6d-4b8f-9c2a-1d7e3f4b6a8c",
+  "titulo" : "Marinada Básica para Peças de Caça Grandes",
+  "origem" : "Receita Tradicional",
+  "tipo" : "temperos",
+  "subtipo" : null,
+  "numeroPessoas" : 6,
+  "dificuldade" : "intermedio",
+  "ingredientes" : [ {
+    "nome" : "Alecrim",
+    "quantidade" : "1 raminho"
+  }, {
+    "nome" : "Alho",
+    "quantidade" : "6 dentes"
+  }, {
+    "nome" : "Cebola",
+    "quantidade" : "2 unidades"
+  }, {
+    "nome" : "Cenoura",
+    "quantidade" : "2 unidades"
+  }, {
+    "nome" : "Folhas de louro",
+    "quantidade" : "4 unidades"
+  }, {
+    "nome" : "Grãos de pimenta",
+    "quantidade" : "12 unidades"
+  }, {
+    "nome" : "Salsa",
+    "quantidade" : "1 raminho"
+  }, {
+    "nome" : "Tomilho",
+    "quantidade" : "1 raminho"
+  }, {
+    "nome" : "Vinho",
+    "quantidade" : "1 litro"
+  }, {
+    "nome" : "Sal",
+    "quantidade" : "q.b."
+  } ],
+  "passosPreparacao" : [ "Corte os dentes de alho em lâminas finas.", "Pique todas as ervas, exceto as folhas de louro, e a cebola.", "Corte a cenoura em rodelas finas.", "Misture todos os ingredientes com o vinho.", "Cubra o fundo de um recipiente com um pouco da marinada e disponha as peças de carne limpas por cima.", "Despeje o restante molho da marinada sobre a carne, cubra com filme aderente e reserve em local fresco por pelo menos 24 horas antes de cozinhar." ],
+  "fotoUrl" : null
+}

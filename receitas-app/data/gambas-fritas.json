@@ -1,0 +1,42 @@
+{
+  "id" : "b4f9e1d3-7c2a-4f6e-8a7b-3d9f1c2b0e5f",
+  "titulo" : "Gambas Fritas",
+  "origem" : "Receita Própria",
+  "tipo" : "marisco",
+  "subtipo" : null,
+  "numeroPessoas" : 4,
+  "dificuldade" : "intermedio",
+  "ingredientes" : [ {
+    "nome" : "Gambas",
+    "quantidade" : "400g"
+  }, {
+    "nome" : "Lima",
+    "quantidade" : "1 unidade"
+  }, {
+    "nome" : "Cidra ou limão",
+    "quantidade" : "1 ou 2 unidades"
+  }, {
+    "nome" : "Vinho Madeira seco",
+    "quantidade" : "3 colheres de sopa"
+  }, {
+    "nome" : "Sementes de cominho",
+    "quantidade" : "1 colher de chá"
+  }, {
+    "nome" : "Malaguetas pequenas e secas",
+    "quantidade" : "3 unidades"
+  }, {
+    "nome" : "Pimenta preta",
+    "quantidade" : "10 grãos"
+  }, {
+    "nome" : "Cravinhos",
+    "quantidade" : "5 unidades"
+  }, {
+    "nome" : "Óleo",
+    "quantidade" : "q.b."
+  }, {
+    "nome" : "Sal grosso",
+    "quantidade" : "1 colher de chá"
+  } ],
+  "passosPreparacao" : [ "Lave as gambas com água temperada com sal e enxugue com papel absorvente.", "Coloque as gambas num prato sem sobreposição e regue com sumo de cidra ou limão, deixando marinar.", "Num moinho, moa os cravinhos, pimenta, malaguetas, cominho e sal sobre as gambas e deixe repousar 10 minutos.", "Aqueça o óleo numa frigideira grande e frite as gambas até dourarem.", "Regue com o vinho Madeira e a marinada de cidra ou limão, deixe apurar e sirva quente." ],
+  "fotoUrl" : null
+}

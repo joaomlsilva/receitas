@@ -1,0 +1,27 @@
+{
+  "id" : "d7f1e3c4-5b2a-4d6e-9c7a-2f8b1e0d9a3c",
+  "titulo" : "Esparguete com Caril",
+  "origem" : "Tradicional Portuguesa",
+  "tipo" : "massas",
+  "subtipo" : null,
+  "numeroPessoas" : 4,
+  "dificuldade" : "principiante",
+  "ingredientes" : [ {
+    "nome" : "Esparguete",
+    "quantidade" : "1 pacote"
+  }, {
+    "nome" : "Alho francês",
+    "quantidade" : "2 unidades"
+  }, {
+    "nome" : "Caril",
+    "quantidade" : "q.b."
+  }, {
+    "nome" : "Natas",
+    "quantidade" : "2 pacotes"
+  }, {
+    "nome" : "Margarina",
+    "quantidade" : "q.b."
+  } ],
+  "passosPreparacao" : [ "Coza o esparguete 'al dente' e reserve.", "Noutra panela, derreta a margarina e junte o alho francês cortado em rodelas fininhas.", "Deixe amolecer e adicione o caril.", "Misture o esparguete neste refogado e cubra com as natas.", "Sirva bem aquecido." ],
+  "fotoUrl" : null
+}

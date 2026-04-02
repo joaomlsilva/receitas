@@ -1,0 +1,51 @@
+{
+  "id" : "b1e3c7a2-5f8d-4c6a-bd2e-3a7f1c9d4e55",
+  "titulo" : "Salada Picada",
+  "origem" : "Receita Tradicional",
+  "tipo" : "saladas",
+  "subtipo" : null,
+  "numeroPessoas" : 4,
+  "dificuldade" : "principiante",
+  "ingredientes" : [ {
+    "nome" : "Alface lisa",
+    "quantidade" : "1 unidade"
+  }, {
+    "nome" : "Pepino",
+    "quantidade" : "½ unidade"
+  }, {
+    "nome" : "Abacates",
+    "quantidade" : "2 unidades"
+  }, {
+    "nome" : "Cebolinhas",
+    "quantidade" : "4 unidades"
+  }, {
+    "nome" : "Manjericão fresco",
+    "quantidade" : "1 ramo"
+  }, {
+    "nome" : "Queijo (Feta, cheddar, ou similar)",
+    "quantidade" : "100g"
+  }, {
+    "nome" : "Tomates",
+    "quantidade" : "3 unidades"
+  }, {
+    "nome" : "Agrião",
+    "quantidade" : "folhas pequenas q.b."
+  }, {
+    "nome" : "Mostarda inglesa",
+    "quantidade" : "1 colher de chá"
+  }, {
+    "nome" : "Azeite",
+    "quantidade" : "3 colheres de sopa"
+  }, {
+    "nome" : "Vinagre",
+    "quantidade" : "1 colher de sopa"
+  }, {
+    "nome" : "Sal",
+    "quantidade" : "q.b."
+  }, {
+    "nome" : "Pimenta",
+    "quantidade" : "q.b."
+  } ],
+  "passosPreparacao" : [ "Lave a alface e separe as folhas.", "Pique o pepino, as cebolinhas e os abacates em pequenos pedaços.", "Junte a alface picada, o manjericão, o queijo em pedaços, o agrião e os tomates picados.", "Em uma travessa separada, misture a mostarda, azeite, vinagre, sal e pimenta até formar um líquido homogéneo.", "Misture o tempero na salada com as mãos até estar bem incorporado." ],
+  "fotoUrl" : null
+}

@@ -1,0 +1,27 @@
+{
+    "id": "f4b7c6e2-3a1d-4f0b-9c8e-2a1f7d5b6c3d",
+    "titulo": "Molho de Camarão",
+    "origem": "Receita Tradicional",
+    "tipo": "molho",
+    "subtipo": "marisco",
+    "numeroPessoas": 4,
+    "dificuldade": "intermedio",
+    "ingredientes": [
+      { "nome": "Camarões descascados e limpos", "quantidade": "12 unidades (13/15)" },
+      { "nome": "Cebola pequena picada", "quantidade": "1 unidade" },
+      { "nome": "Azeite perfumado com alho", "quantidade": "1 chávena" },
+      { "nome": "Tomate médio sem peles e sementes", "quantidade": "2 unidades" },
+      { "nome": "Vinho branco seco", "quantidade": "1 chávena de café" },
+      { "nome": "Manjericão fresco", "quantidade": "q.b." },
+      { "nome": "Salsa ou coentros picados", "quantidade": "q.b." },
+      { "nome": "Sal e pimenta", "quantidade": "q.b." }
+    ],
+    "passosPreparacao": [
+      "Refogue ligeiramente o camarão em metade do azeite até dourar e escorra bem.",
+      "Refogue a cebola no azeite restante e depois junte o tomate.",
+      "Acrescente o camarão, regue com o vinho e deixe evaporar.",
+      "Tempere com sal e pimenta.",
+      "Sirva decorado com salsa ou coentros picados e folhinhas de manjericão."
+    ],
+    "fotoUrl": null
+  }

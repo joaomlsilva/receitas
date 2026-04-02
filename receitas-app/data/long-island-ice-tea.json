@@ -1,0 +1,36 @@
+{
+  "id" : "e4f2b1c9-7d3a-4e5b-9a2c-8f6d7b3c1a4e",
+  "titulo" : "Long Island Ice Tea",
+  "origem" : "Internacional",
+  "tipo" : "bebidas",
+  "subtipo" : "com alcool",
+  "numeroPessoas" : 1,
+  "dificuldade" : "intermedio",
+  "ingredientes" : [ {
+    "nome" : "Vodka",
+    "quantidade" : "1,5 cl"
+  }, {
+    "nome" : "Rum",
+    "quantidade" : "1,5 cl"
+  }, {
+    "nome" : "Tequila",
+    "quantidade" : "1,5 cl"
+  }, {
+    "nome" : "Gin",
+    "quantidade" : "1,5 cl"
+  }, {
+    "nome" : "Triple seco",
+    "quantidade" : "1,5 cl"
+  }, {
+    "nome" : "Sumo de limão",
+    "quantidade" : "5 gotas"
+  }, {
+    "nome" : "Cola",
+    "quantidade" : "12 cl"
+  }, {
+    "nome" : "Gelo",
+    "quantidade" : "q.b."
+  } ],
+  "passosPreparacao" : [ "Juntar todos os ingredientes no copo long drink.", "Mexer com uma colher para misturar.", "Adicionar cubos de gelo.", "Decorar com uma rodela de limão no bordo do copo e servir com duas palhinhas." ],
+  "fotoUrl" : null
+}

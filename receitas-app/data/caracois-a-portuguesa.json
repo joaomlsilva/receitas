@@ -1,0 +1,33 @@
+{
+  "id" : "c4e1f2d9-6b3a-4d7e-b2f1-8e5c3a1f7d68",
+  "titulo" : "Caracóis à Portuguesa",
+  "origem" : "Receita Tradicional",
+  "tipo" : "petiscos",
+  "subtipo" : null,
+  "numeroPessoas" : 6,
+  "dificuldade" : "intermedio",
+  "ingredientes" : [ {
+    "nome" : "Caracóis",
+    "quantidade" : "1,5kg"
+  }, {
+    "nome" : "Azeite",
+    "quantidade" : "2 colheres de sopa"
+  }, {
+    "nome" : "Orégãos",
+    "quantidade" : "1 raminho"
+  }, {
+    "nome" : "Folha de louro",
+    "quantidade" : "1 unidade"
+  }, {
+    "nome" : "Alho",
+    "quantidade" : "q.b."
+  }, {
+    "nome" : "Cebola",
+    "quantidade" : "1 unidade"
+  }, {
+    "nome" : "Sal, pimenta e piripiri",
+    "quantidade" : "q.b."
+  } ],
+  "passosPreparacao" : [ "Lave os caracóis em diversas águas para eliminar a baba.", "Coloque os caracóis numa panela com água fria, azeite, orégãos, louro, dentes de alho e cebola.", "Leve ao lume e deixe ferver destapado, retirando a espuma com uma escumadeira.", "Tempere com sal, pimenta e piripiri.", "Quando cozidos, retire do lume e sirva quente em pratinhos individuais com um pouco de caldo." ],
+  "fotoUrl" : null
+}

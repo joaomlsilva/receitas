@@ -1,0 +1,33 @@
+{
+  "id" : "a1d3f9e7-6b4f-4f8e-9c6b-2e7f8d1a0c9b",
+  "titulo" : "Camarões Tigre",
+  "origem" : "Tradicional Portuguesa",
+  "tipo" : "marisco",
+  "subtipo" : null,
+  "numeroPessoas" : 4,
+  "dificuldade" : "intermedio",
+  "ingredientes" : [ {
+    "nome" : "Camarões tigre",
+    "quantidade" : "16 unidades"
+  }, {
+    "nome" : "Limão",
+    "quantidade" : "2 unidades"
+  }, {
+    "nome" : "Piripiri",
+    "quantidade" : "1 colher de café"
+  }, {
+    "nome" : "Pimenta",
+    "quantidade" : "q.b."
+  }, {
+    "nome" : "Sal",
+    "quantidade" : "q.b."
+  }, {
+    "nome" : "Manteiga",
+    "quantidade" : "q.b."
+  }, {
+    "nome" : "Óleo",
+    "quantidade" : "q.b."
+  } ],
+  "passosPreparacao" : [ "Tempere os camarões com sal, pimenta e sumo de limão e deixe repousar por cerca de 1 hora.", "Pincele os camarões com óleo e grelhe-os.", "Derreta manteiga e misture com o piripiri.", "Na altura de servir, regue os camarões com o molho de manteiga e piripiri." ],
+  "fotoUrl" : null
+}

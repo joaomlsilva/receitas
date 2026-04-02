@@ -1,0 +1,31 @@
+{
+  "id": "1a2b3c4d-0002-4f19-a3d6-8e2c7b0d9f43",
+  "titulo": "Bifes de Veado com molho de Zimbro",
+  "origem": "Tradicional Portuguesa",
+  "tipo": "carne",
+  "subtipo": "caça",
+  "numeroPessoas": 4,
+  "dificuldade": "intermedio",
+  "ingredientes": [
+    { "nome": "Manteiga", "quantidade": "200g" },
+    { "nome": "Farinha de trigo", "quantidade": "200g peneirada" },
+    { "nome": "Bifes de veado", "quantidade": "4 unidades" },
+    { "nome": "Margarina", "quantidade": "4 colheres de sopa" },
+    { "nome": "Farinha", "quantidade": "2 colheres de sopa" },
+    { "nome": "Caldo de carne", "quantidade": "1/2 unidade" },
+    { "nome": "Vinho da Madeira", "quantidade": "1,25 dl" },
+    { "nome": "Bagas de zimbro moídas", "quantidade": "2 colheres de chá" },
+    { "nome": "Sal e pimenta preta moída", "quantidade": "q.b." },
+    { "nome": "Óleo", "quantidade": "2 colheres de sopa" }
+  ],
+  "passosPreparacao": [
+    "Numa caçarola, derreta três colheres de sopa de manteiga.",
+    "Junte a farinha e cozinhe em lume brando durante 2-3 minutos.",
+    "Fora do lume, adicione o caldo de carne até obter consistência.",
+    "Junte o vinho e leve ao lume, adicionando o zimbro e mexendo até engrossar.",
+    "Tempere a gosto e conserve o molho quente.",
+    "Numa frigideira, derreta o restante da manteiga com o óleo, adicione os bifes de veado e cozinhe cerca de 6 minutos para ficarem meio passados.",
+    "Tempere os bifes, regue com o molho e sirva com vegetais."
+  ],
+  "fotoUrl": null
+}

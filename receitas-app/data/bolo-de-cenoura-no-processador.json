@@ -1,0 +1,63 @@
+{
+  "id" : "a7c4e2b9-5d6f-4f1b-a8c7-9f3d6b2a4e1c",
+  "titulo" : "Bolo de Cenoura no processador",
+  "origem" : "Donna Hay",
+  "tipo" : "doces",
+  "subtipo" : null,
+  "numeroPessoas" : 8,
+  "dificuldade" : "intermedio",
+  "ingredientes" : [ {
+    "nome" : "Cenouras peladas e cortadas",
+    "quantidade" : "400 g"
+  }, {
+    "nome" : "Nozes pecãs",
+    "quantidade" : "120 g"
+  }, {
+    "nome" : "Açúcar mascavo",
+    "quantidade" : "175 g"
+  }, {
+    "nome" : "Açúcar fino",
+    "quantidade" : "110 g"
+  }, {
+    "nome" : "Farinha",
+    "quantidade" : "225 g"
+  }, {
+    "nome" : "Fermento em pó",
+    "quantidade" : "1 colher de chá"
+  }, {
+    "nome" : "Bicarbonato de sódio",
+    "quantidade" : "1 colher de chá"
+  }, {
+    "nome" : "Canela",
+    "quantidade" : "2 colheres de chá"
+  }, {
+    "nome" : "Óleo vegetal",
+    "quantidade" : "125 ml"
+  }, {
+    "nome" : "Iogurte grego natural",
+    "quantidade" : "70 g"
+  }, {
+    "nome" : "Ovos",
+    "quantidade" : "2 unidades"
+  }, {
+    "nome" : "Pasta de baunilha",
+    "quantidade" : "2 colheres de chá"
+  }, {
+    "nome" : "Queijo creme",
+    "quantidade" : "250 g"
+  }, {
+    "nome" : "Ricota fresco",
+    "quantidade" : "50 g"
+  }, {
+    "nome" : "Açúcar de pasteleiro",
+    "quantidade" : "55 g"
+  }, {
+    "nome" : "Sumo de limão",
+    "quantidade" : "1 colher de sopa"
+  }, {
+    "nome" : "Pasta de baunilha para cobertura",
+    "quantidade" : "1 colher de chá"
+  } ],
+  "passosPreparacao" : [ "Pré-aqueça o forno a 160ºC.", "Coloque cenouras e nozes pecãs no processador e pique finamente.", "Adicione farinha, bicarbonato, fermento em pó, açúcares, canela, baunilha, óleo, ovos e iogurte e processe até combinar.", "Despeje a massa numa forma redonda de 22 cm forrada com papel vegetal.", "Leve ao forno por 55 a 60 minutos, ou até o palito sair limpo. Deixe arrefecer.", "Para a cobertura, processe queijo creme, ricota, açúcar, sumo de limão e baunilha até homogeneizar.", "Espalhe a cobertura uniformemente sobre o bolo usando espátula." ],
+  "fotoUrl" : null
+}

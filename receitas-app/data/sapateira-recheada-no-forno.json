@@ -1,0 +1,45 @@
+{
+  "id" : "c9e7f1b2-8a4d-4f7c-9d3e-6b8f2a0c1d4f",
+  "titulo" : "Sapateira Recheada no Forno",
+  "origem" : "Tradicional Portuguesa",
+  "tipo" : "marisco",
+  "subtipo" : null,
+  "numeroPessoas" : 4,
+  "dificuldade" : "intermedio",
+  "ingredientes" : [ {
+    "nome" : "Sapateira fêmea",
+    "quantidade" : "1 unidade"
+  }, {
+    "nome" : "Cebola grande",
+    "quantidade" : "1 unidade"
+  }, {
+    "nome" : "Miolo de pão de trigo",
+    "quantidade" : "100g"
+  }, {
+    "nome" : "Miolo de broa de milho",
+    "quantidade" : "200g"
+  }, {
+    "nome" : "Azeite",
+    "quantidade" : "3 colheres de sopa"
+  }, {
+    "nome" : "Vinho do Porto",
+    "quantidade" : "1 colher de sobremesa"
+  }, {
+    "nome" : "Leite",
+    "quantidade" : "q.b."
+  }, {
+    "nome" : "Salsa picada",
+    "quantidade" : "1 colher de sobremesa"
+  }, {
+    "nome" : "Manteiga",
+    "quantidade" : "q.b."
+  }, {
+    "nome" : "Pão ralado",
+    "quantidade" : "q.b."
+  }, {
+    "nome" : "Sal e piripiri",
+    "quantidade" : "q.b."
+  } ],
+  "passosPreparacao" : [ "Coza a sapateira em água com sal por 20 a 25 minutos, escorra e deixe arrefecer.", "Separe pernas e patas e abra a carapaça, retirando partes não comestíveis.", "Misture todo o conteúdo da sapateira para formar uma pasta homogénea.", "Pique a cebola e aloure com azeite em lume brando.", "Amoleça o miolo de pão de trigo no leite, escorra e junte à cebola.", "Adicione o miolo de broa e a pasta da sapateira, tempere com sal e piripiri.", "Acrescente vinho do Porto, salsa e, se necessário, um pouco do líquido da cozedura para ajustar a consistência do recheio.", "Lave a carapaça e recheie-a com a pasta.", "Disponha nozes de manteiga e polvilhe com pão ralado.", "Leve ao forno para alourar bem e sirva com patas e bocas ao redor." ],
+  "fotoUrl" : null
+}

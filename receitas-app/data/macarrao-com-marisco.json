@@ -1,0 +1,54 @@
+{
+  "id" : "d52f9c9a-8e49-4e2a-a2d7-291e4b8a7db1",
+  "titulo" : "Macarrão com Marisco",
+  "origem" : "Internet",
+  "tipo" : "massas",
+  "subtipo" : null,
+  "numeroPessoas" : 4,
+  "dificuldade" : "intermedio",
+  "ingredientes" : [ {
+    "nome" : "Cebola",
+    "quantidade" : "1/2 unidade"
+  }, {
+    "nome" : "Dentes de alho",
+    "quantidade" : "2 unidades"
+  }, {
+    "nome" : "Azeite",
+    "quantidade" : "6 colheres de sopa"
+  }, {
+    "nome" : "Colorau",
+    "quantidade" : "1 colher de sobremesa"
+  }, {
+    "nome" : "Concentrado de tomate",
+    "quantidade" : "6 colheres de sopa"
+  }, {
+    "nome" : "Lula média",
+    "quantidade" : "1 unidade"
+  }, {
+    "nome" : "Choco médio",
+    "quantidade" : "1 unidade"
+  }, {
+    "nome" : "Gambas grandes",
+    "quantidade" : "4 unidades"
+  }, {
+    "nome" : "Água",
+    "quantidade" : "1,5 L"
+  }, {
+    "nome" : "Cubo de caldo de peixe",
+    "quantidade" : "1 unidade"
+  }, {
+    "nome" : "Mexilhões sem casca",
+    "quantidade" : "250g"
+  }, {
+    "nome" : "Macarrão",
+    "quantidade" : "250g"
+  }, {
+    "nome" : "Farinha Maizena",
+    "quantidade" : "1 colher de sopa"
+  }, {
+    "nome" : "Sal e pimenta",
+    "quantidade" : "q.b."
+  } ],
+  "passosPreparacao" : [ "Aloure a cebola e os dentes de alho picados em metade do azeite.", "Junte o colorau e o tomate, mexa e retire do lume.", "À parte, refogue no restante azeite a lula em rodelas, o choco em tiras e as gambas descascadas.", "Misture com o preparado anterior, junte a água, o caldo de peixe e os mexilhões.", "Tempere e deixe ferver.", "Quando levantar fervura, junte o macarrão e deixe cozer em lume brando durante cerca de 15 minutos, mexendo ocasionalmente.", "Retifique de sal e junte a Maizena diluída em um pouco de água fria.", "Deixe cozinhar mais 2 minutos, mexendo sempre." ],
+  "fotoUrl" : null
+}

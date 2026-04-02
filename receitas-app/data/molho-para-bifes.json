@@ -1,0 +1,22 @@
+{
+    "id": "d1f3a9b2-4e5c-4a7d-8b2f-1c6e9d7a8f3b",
+    "titulo": "Molho para Bifes",
+    "origem": "Receita Tradicional",
+    "tipo": "molho",
+    "subtipo": "carne",
+    "numeroPessoas": 4,
+    "dificuldade": "intermedio",
+    "ingredientes": [
+      { "nome": "Vinho Madeira", "quantidade": "1 cálice" },
+      { "nome": "Molho inglês", "quantidade": "1 colher de sopa" },
+      { "nome": "Mostarda", "quantidade": "1 colher de chá cheia" },
+      { "nome": "Manteiga", "quantidade": "2 colheres de sopa" },
+      { "nome": "Pimenta em pó", "quantidade": "q.b." }
+    ],
+    "passosPreparacao": [
+      "Derreta a manteiga numa frigideira sem queimar.",
+      "Adicione o vinho, o molho inglês e a mostarda, mexendo bem para ligar.",
+      "Quando servir os bifes, frite-os em manteiga, junte a gordura dos bifes ao molho e deite por cima dos bifes."
+    ],
+    "fotoUrl": null
+  }

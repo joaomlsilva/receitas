@@ -1,0 +1,34 @@
+{
+  "id": "1a2b3c4d-0003-4f19-a3d6-8e2c7b0d9f44",
+  "titulo": "Strogonoff de Veado",
+  "origem": "Tradicional Portuguesa",
+  "tipo": "carne",
+  "subtipo": "caça",
+  "numeroPessoas": 6,
+  "dificuldade": "intermedio",
+  "ingredientes": [
+    { "nome": "Farinha de trigo", "quantidade": "1/2 xícara (chá)" },
+    { "nome": "Pimenta-do-reino", "quantidade": "1/2 colher (chá)" },
+    { "nome": "Carne moída de veado ou bovina", "quantidade": "1 Kg" },
+    { "nome": "Óleo vegetal", "quantidade": "2 colheres (sopa)" },
+    { "nome": "Cebola", "quantidade": "1 unidade grande em rodelas" },
+    { "nome": "Caldo de carne caseiro", "quantidade": "1 e 1/2 xícara (chá)" },
+    { "nome": "Xerez seco", "quantidade": "1/4 xícara (chá)" },
+    { "nome": "Cogumelo seco fatiado", "quantidade": "500g" },
+    { "nome": "Macarrão", "quantidade": "340g" },
+    { "nome": "Leite evaporado", "quantidade": "1 lata" },
+    { "nome": "Ketchup", "quantidade": "2 colheres (sopa)" },
+    { "nome": "Molho inglês", "quantidade": "2 colheres (sopa)" },
+    { "nome": "Sal", "quantidade": "pitada" }
+  ],
+  "passosPreparacao": [
+    "Misture a farinha e a pimenta e adicione à carne até incorporar bem.",
+    "Numa panela grande, aqueça o óleo e frite a carne com a cebola até dourar uniformemente.",
+    "Adicione o caldo e o xerez, tampe parcialmente e cozinhe em fogo baixo por 1h30, mexendo ocasionalmente.",
+    "Frite os cogumelos em frigideira antiaderente por 20 minutos, pingando água se necessário, e junte à carne.",
+    "Cozinhe o macarrão sem sal.",
+    "Misture o leite evaporado, ketchup, molho inglês e sal.",
+    "Adicione esta mistura à carne cozida, aqueça por 5 minutos e sirva com o macarrão."
+  ],
+  "fotoUrl": null
+}

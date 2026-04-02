@@ -1,0 +1,26 @@
+{
+    "id": "b3c8d6a7-5e2f-4c9d-8b1a-7e3c5d2f4b9a",
+    "titulo": "Molho Mostarda",
+    "origem": "Receita Tradicional",
+    "tipo": "molho",
+    "subtipo": null,
+    "numeroPessoas": 4,
+    "dificuldade": "intermedio",
+    "ingredientes": [
+      { "nome": "Vinho branco seco", "quantidade": "1 chávena (240 ml)" },
+      { "nome": "Creme de leite", "quantidade": "1 chávena" },
+      { "nome": "Manteiga", "quantidade": "2 colheres de sopa" },
+      { "nome": "Mostarda", "quantidade": "4 colheres de sopa" },
+      { "nome": "Sal", "quantidade": "½ colher de chá" },
+      { "nome": "Cebola média picada", "quantidade": "1 unidade (100 g)" },
+      { "nome": "Pimenta do reino", "quantidade": "pitada" }
+    ],
+    "passosPreparacao": [
+      "Derreta a manteiga em panela pequena em fogo alto.",
+      "Acrescente a cebola e cozinhe até murchar.",
+      "Adicione o vinho e deixe reduzir pela metade (~10 minutos).",
+      "Junte a mostarda e o creme de leite, cozinhando e mexendo até engrossar (~10 minutos).",
+      "Tempere com sal e pimenta a gosto."
+    ],
+    "fotoUrl": null
+  }

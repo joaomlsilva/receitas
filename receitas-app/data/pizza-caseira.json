@@ -1,0 +1,57 @@
+{
+  "id" : "a9f8c3d2-1b4e-4f2a-9c6e-3d7b5e1a2f43",
+  "titulo" : "Pizza Caseira",
+  "origem" : "Receita Tradicional",
+  "tipo" : "pizzas",
+  "subtipo" : null,
+  "numeroPessoas" : 4,
+  "dificuldade" : "intermedio",
+  "ingredientes" : [ {
+    "nome" : "Farinha",
+    "quantidade" : "5 chávenas"
+  }, {
+    "nome" : "Ovo",
+    "quantidade" : "1 unidade"
+  }, {
+    "nome" : "Azeite",
+    "quantidade" : "1 chávena + q.b. para refogado"
+  }, {
+    "nome" : "Água",
+    "quantidade" : "2 chávenas"
+  }, {
+    "nome" : "Sal",
+    "quantidade" : "q.b."
+  }, {
+    "nome" : "Cebola média",
+    "quantidade" : "1 unidade"
+  }, {
+    "nome" : "Óleo",
+    "quantidade" : "q.b."
+  }, {
+    "nome" : "Tomate",
+    "quantidade" : "q.b."
+  }, {
+    "nome" : "Pimentão",
+    "quantidade" : "q.b."
+  }, {
+    "nome" : "Queijo",
+    "quantidade" : "q.b."
+  }, {
+    "nome" : "Fiambre",
+    "quantidade" : "q.b."
+  }, {
+    "nome" : "Salsa",
+    "quantidade" : "q.b."
+  }, {
+    "nome" : "Azeitonas",
+    "quantidade" : "q.b."
+  }, {
+    "nome" : "Polpa de tomate",
+    "quantidade" : "colheres de chá, q.b."
+  }, {
+    "nome" : "Orégãos",
+    "quantidade" : "q.b."
+  } ],
+  "passosPreparacao" : [ "Misture a farinha com o ovo.", "Junte uma chávena de azeite e duas de água.", "Tempere com sal e deixe repousar durante 1 hora.", "Enquanto isso, prepare um refogado com a cebola média picada, azeite e óleo.", "Adicione o tomate cortado aos bocadinhos e cozinhe até ficar macio.", "Estenda a massa e forre um tabuleiro.", "Alterne camadas de refogado com queijo e fiambre até acabarem os ingredientes, sendo a última camada de queijo e fiambre.", "Distribua pimentões, salsa e azeitonas por cima e espalhe colheres de chá de polpa de tomate.", "Polvilhe com orégãos e leve ao forno bem quente durante 20 minutos." ],
+  "fotoUrl" : null
+}

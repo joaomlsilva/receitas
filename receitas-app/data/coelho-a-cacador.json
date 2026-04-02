@@ -1,0 +1,33 @@
+{
+    "id": "a3f1e792-6d8b-4b2f-9e54-02f6a8d050cb",
+    "titulo": "Coelho à Caçador",
+    "origem": "Tradicional Portuguesa",
+    "tipo": "carne",
+    "subtipo": "caça",
+    "numeroPessoas": 4,
+    "dificuldade": "intermedio",
+    "ingredientes": [
+      { "nome": "Coelho", "quantidade": "1 unidade" },
+      { "nome": "Cebola", "quantidade": "2 unidades" },
+      { "nome": "Azeite", "quantidade": "1,5 dl" },
+      { "nome": "Folha de louro", "quantidade": "1 unidade" },
+      { "nome": "Vinagre", "quantidade": "1 colher" },
+      { "nome": "Salsa", "quantidade": "1 ramo" },
+      { "nome": "Alho", "quantidade": "4 dentes" },
+      { "nome": "Vinho verde tinto", "quantidade": "q.b." },
+      { "nome": "Sal", "quantidade": "q.b." },
+      { "nome": "Pimenta", "quantidade": "q.b." },
+      { "nome": "Alecrim", "quantidade": "q.b." },
+      { "nome": "Carqueja", "quantidade": "q.b." }
+    ],
+    "passosPreparacao": [
+      "Corte o coelho em pedaços e coloque num recipiente com a folha de louro, dentes de alho pisados, sal e pimenta.",
+      "Regue com vinho verde tinto e envolva bem.",
+      "Noutro tacho, faça um refogado com azeite e as cebolas picadas até ficarem transparentes.",
+      "Junte o coelho ao refogado e deixe selar.",
+      "Misture a marinada, adicione o alecrim e a carqueja.",
+      "Tape o tacho e deixe cozinhar até o coelho estar bem cozido.",
+      "Sirva acompanhado de batatas cozidas ou fritas."
+    ],
+    "fotoUrl": null
+  }

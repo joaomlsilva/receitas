@@ -1,0 +1,45 @@
+{
+  "id" : "a7f2d5e3-3c1d-4f6b-9d47-5e2c176a880f",
+  "titulo" : "Pasta de Frango e Cogumelos",
+  "origem" : "Jamie Oliver",
+  "tipo" : "massas",
+  "subtipo" : null,
+  "numeroPessoas" : 4,
+  "dificuldade" : "intermedio",
+  "ingredientes" : [ {
+    "nome" : "Cogumelos porcini secos",
+    "quantidade" : "20g"
+  }, {
+    "nome" : "Azeite",
+    "quantidade" : "q.b."
+  }, {
+    "nome" : "Coxas de frango desossadas e sem pele",
+    "quantidade" : "4 unidades"
+  }, {
+    "nome" : "Sal e pimenta preta",
+    "quantidade" : "q.b."
+  }, {
+    "nome" : "Dentes de alho picados",
+    "quantidade" : "2 unidades"
+  }, {
+    "nome" : "Vários cogumelos frescos",
+    "quantidade" : "350g"
+  }, {
+    "nome" : "Vinho branco",
+    "quantidade" : "200 ml"
+  }, {
+    "nome" : "Espaguete",
+    "quantidade" : "455g"
+  }, {
+    "nome" : "Creme Fraiche",
+    "quantidade" : "500 ml"
+  }, {
+    "nome" : "Queijo parmesão ralado",
+    "quantidade" : "200g"
+  }, {
+    "nome" : "Manjericão fresco",
+    "quantidade" : "1 ramo"
+  } ],
+  "passosPreparacao" : [ "Pré-aqueça o forno a 200ºC.", "Coloque os cogumelos porcini secos numa taça e cubra com água a ferver até hidratados.", "Aqueça uma frigideira com azeite.", "Tempere os pedaços de frango com sal e pimenta e doure no azeite.", "Coe os porcini, reservando a água.", "Junte os porcini, os alhos e os cogumelos frescos à frigideira, adicione o vinho e a água reservada dos porcini.", "Deixe cozinhar até o frango estar pronto e o vinho reduzido.", "Cozinhe o esparguete em água com sal e escorra.", "Adicione o Creme Fraiche ao frango e deixe ferver.", "Tempere com sal e pimenta.", "Junte o esparguete ao frango e misture bem.", "Acrescente ¾ do parmesão e o manjericão e mexa.", "Transfira para um tabuleiro, salpique com metade do parmesão e leve ao forno até dourar.", "Sirva com gotas de azeite e o restante parmesão." ],
+  "fotoUrl" : null
+}

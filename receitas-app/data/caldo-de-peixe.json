@@ -1,0 +1,39 @@
+{
+  "id" : "d2f7e5b8-3c1a-4d9f-83b2-7e6a1c4f9d21",
+  "titulo" : "Caldo de Peixe",
+  "origem" : "Receita Tradicional",
+  "tipo" : "sopas",
+  "subtipo" : null,
+  "numeroPessoas" : 6,
+  "dificuldade" : "intermedio",
+  "ingredientes" : [ {
+    "nome" : "Aparas de peixe",
+    "quantidade" : "2kg"
+  }, {
+    "nome" : "Aipo com folhas",
+    "quantidade" : "1 talo"
+  }, {
+    "nome" : "Cebola",
+    "quantidade" : "1 unidade"
+  }, {
+    "nome" : "Cenoura picada com casca",
+    "quantidade" : "1 unidade"
+  }, {
+    "nome" : "Alho francês picado",
+    "quantidade" : "q.b."
+  }, {
+    "nome" : "Água",
+    "quantidade" : "2L"
+  }, {
+    "nome" : "Grãos de pimenta",
+    "quantidade" : "12 unidades"
+  }, {
+    "nome" : "Ramo de cheiros (louro, tomilho, salsa)",
+    "quantidade" : "1 ramo"
+  }, {
+    "nome" : "Sal",
+    "quantidade" : "q.b."
+  } ],
+  "passosPreparacao" : [ "Limpe as aparas de peixe retirando guelras e olhos, corte espinhas, cabeças e rabos em pedaços.", "Coloque as aparas em água fria com sal por 10 minutos e lave em água corrente.", "Numa caçarola, coloque as aparas, aipo, cebola, cenoura, alho francês e 2L de água.", "Leve a levantar fervura, retire a espuma e junte a pimenta e o ramo de cheiros.", "Reduza o lume ao mínimo e coza suavemente por 20 minutos, retirando a espuma.", "Coe o líquido sem pressionar os sólidos, deixando escorrer livremente.", "Deixe arrefecer e guarde ou utilize imediatamente." ],
+  "fotoUrl" : null
+}

@@ -1,0 +1,30 @@
+{
+  "id" : "d2b1f3e5-8c4a-4b9e-a2d5-3c7f1b0d9a12",
+  "titulo" : "Massa de Pizza",
+  "origem" : "Receita Tradicional",
+  "tipo" : "pizzas",
+  "subtipo" : null,
+  "numeroPessoas" : 4,
+  "dificuldade" : "intermedio",
+  "ingredientes" : [ {
+    "nome" : "Açúcar",
+    "quantidade" : "1 colher de chá"
+  }, {
+    "nome" : "Água morna",
+    "quantidade" : "2,5 dl"
+  }, {
+    "nome" : "Fermento de padeiro",
+    "quantidade" : "35g"
+  }, {
+    "nome" : "Manteiga derretida e arrefecida",
+    "quantidade" : "30g"
+  }, {
+    "nome" : "Farinha",
+    "quantidade" : "480g"
+  }, {
+    "nome" : "Sal",
+    "quantidade" : "1 pitada"
+  } ],
+  "passosPreparacao" : [ "Numa tigela grande, dissolva o açúcar na água morna.", "Desfaça o fermento na água e deixe repousar 10 minutos até começar a fazer espuma.", "Incorpore a manteiga.", "Misture cerca da metade da farinha e uma pitada de sal na mistura de fermento.", "Incorpore a pouco e pouco suficiente farinha para obter uma massa um pouco pegajosa.", "Amasse sobre uma superfície polvilhada com um pouco de farinha até a massa ficar lisa e elástica, cerca de 5 minutos.", "Coloque a massa numa tigela untada e deixe repousar 15 minutos.", "Amassugue a massa e divida-a ao meio.", "Estenda cada metade num círculo de 28 cm de diâmetro e coloque numa placa para pizza untada.", "Deixe repousar 15 minutos.", "Com a ponta dos dedos, pressione a massa desde o centro até estar totalmente coberta.", "Espalhe o molho e guarneça a gosto." ],
+  "fotoUrl" : null
+}

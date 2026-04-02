@@ -1,0 +1,26 @@
+{
+    "id": "c3d7f9a1-5b4e-4d8c-a2e7-1f6c9b2d3e40",
+    "titulo": "Molho para Francesinhas",
+    "origem": "Receita Tradicional",
+    "tipo": "molho",
+    "subtipo": null,
+    "numeroPessoas": 4,
+    "dificuldade": "intermedio",
+    "ingredientes": [
+      { "nome": "Cervejas brancas", "quantidade": "2 unidades" },
+      { "nome": "Polpa de tomate", "quantidade": "300ml" },
+      { "nome": "Folhas de louro", "quantidade": "2 unidades" },
+      { "nome": "Cubo de caldo de carne", "quantidade": "1 unidade" },
+      { "nome": "Amido de milho (Maizena)", "quantidade": "2 colheres de sopa" },
+      { "nome": "Margarina", "quantidade": "2 colheres de sopa" },
+      { "nome": "Piripiri", "quantidade": "q.b." },
+      { "nome": "Leite", "quantidade": "½ copo" }
+    ],
+    "passosPreparacao": [
+      "Dissolva a Maizena no leite.",
+      "Misture todos os ingredientes com a Maizena dissolvida numa panela.",
+      "Passe a varinha mágica e leve ao lume para engrossar, mexendo de vez em quando.",
+      "Retifique os temperos e reserve bem quente."
+    ],
+    "fotoUrl": null
+  }

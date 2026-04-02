@@ -1,0 +1,33 @@
+{
+  "id" : "d4f2e8b1-7b09-49c2-8fc9-5e1f1e9c0723",
+  "titulo" : "Açorda de Sapateira",
+  "origem" : "Tradicional Portuguesa",
+  "tipo" : "marisco",
+  "subtipo" : null,
+  "numeroPessoas" : 4,
+  "dificuldade" : "intermedio",
+  "ingredientes" : [ {
+    "nome" : "Sapateira cozida",
+    "quantidade" : "1 unidade"
+  }, {
+    "nome" : "Cebola",
+    "quantidade" : "1 unidade"
+  }, {
+    "nome" : "Azeite",
+    "quantidade" : "3 dl"
+  }, {
+    "nome" : "Calda de tomate",
+    "quantidade" : "3 colheres (sopa)"
+  }, {
+    "nome" : "Pão caseiro",
+    "quantidade" : "750g"
+  }, {
+    "nome" : "Ovos",
+    "quantidade" : "4 unidades"
+  }, {
+    "nome" : "Sal e pimenta",
+    "quantidade" : "q.b."
+  } ],
+  "passosPreparacao" : [ "Corte a cebola em rodelas e coloque num tacho com azeite.", "Adicione a carne retirada da sapateira por cima da cebola.", "Deixe refogar até a cebola ficar loura e regue com um pouco de água.", "Adicione a calda de tomate e deixe apurar.", "Corte o pão em fatias e coloque no tacho para embeber bem o molho.", "Bata os ovos com sal e pimenta.", "Junte os ovos batidos à açorda e mexa bem para que não cozam em separado.", "Sirva imediatamente." ],
+  "fotoUrl" : null
+}

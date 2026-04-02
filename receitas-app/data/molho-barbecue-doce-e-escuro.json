@@ -1,0 +1,33 @@
+{
+    "id": "e3b7f1c4-6a9d-4c5b-9d2f-4f6e7a1c3d2b",
+    "titulo": "Molho Barbecue Doce e Escuro",
+    "origem": "Receita Tradicional",
+    "tipo": "molho",
+    "subtipo": "barbecue",
+    "numeroPessoas": 6,
+    "dificuldade": "intermedio",
+    "ingredientes": [
+      { "nome": "Açúcar mascavado", "quantidade": "6 colheres de sopa" },
+      { "nome": "Vinagre de cidra", "quantidade": "½ xícara" },
+      { "nome": "Melaço", "quantidade": "¼ xícara" },
+      { "nome": "Mel", "quantidade": "¼ xícara" },
+      { "nome": "Molho inglês (Worcestershire sauce)", "quantidade": "¼ xícara" },
+      { "nome": "Rum escuro", "quantidade": "2 colheres de sopa" },
+      { "nome": "Mostarda amarela", "quantidade": "2 colheres de sopa" },
+      { "nome": "Liquid smoke (fumo líquido)", "quantidade": "1 colher de sopa" },
+      { "nome": "Chili em pó", "quantidade": "1 colher de sopa" },
+      { "nome": "Pimenta preta", "quantidade": "2 colheres de chá" },
+      { "nome": "Alho em pó", "quantidade": "2 colheres de chá" },
+      { "nome": "Allspice em pó", "quantidade": "1 colher de chá" },
+      { "nome": "Cravo em pó", "quantidade": "¼ colher de chá" },
+      { "nome": "Ketchup", "quantidade": "4 xícaras" },
+      { "nome": "Sal grosso e pimenta do reino moída", "quantidade": "q.b." }
+    ],
+    "passosPreparacao": [
+      "Combine todos os ingredientes, exceto o ketchup, numa panela funda e leve a ferver em lume médio, mexendo sempre, cerca de 5 minutos.",
+      "Acrescente o ketchup, deixe ferver e mexa bem.",
+      "Reduza o lume e cozinhe sem tampa até o molho ficar escuro, grosso e saboroso (~30 minutos).",
+      "Use imediatamente ou guarde em frascos fechados no frigorífico."
+    ],
+    "fotoUrl": null
+  }

@@ -1,0 +1,33 @@
+{
+  "id" : "e5b3d9f1-6f4c-4f6b-91d3-8c9f2e7b0a4d",
+  "titulo" : "Caril dos Pescadores do Oe-Cussi",
+  "origem" : "Tradição Moçambicana/Timorense",
+  "tipo" : "marisco",
+  "subtipo" : null,
+  "numeroPessoas" : 4,
+  "dificuldade" : "intermedio",
+  "ingredientes" : [ {
+    "nome" : "Molho de tamarindo",
+    "quantidade" : "6 colheres de sopa"
+  }, {
+    "nome" : "Leite de coco",
+    "quantidade" : "1 L"
+  }, {
+    "nome" : "Camarão",
+    "quantidade" : "500g"
+  }, {
+    "nome" : "Cebola",
+    "quantidade" : "1 unidade"
+  }, {
+    "nome" : "Óleo",
+    "quantidade" : "1 dl"
+  }, {
+    "nome" : "Sal e pimenta",
+    "quantidade" : "q.b."
+  }, {
+    "nome" : "Açafrão",
+    "quantidade" : "1 colher de chá"
+  } ],
+  "passosPreparacao" : [ "Aloure a cebola picada no óleo num tacho.", "Junte o molho de tamarindo e o leite de coco com açafrão, tempere com sal e pimenta.", "Deixe ferver em lume brando para engrossar o molho.", "Adicione os camarões descascados, mantendo a cabeça, e cozinhe por cerca de 5 minutos.", "Sirva quente, acompanhado de arroz branco." ],
+  "fotoUrl" : null
+}

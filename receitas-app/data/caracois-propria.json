@@ -1,0 +1,36 @@
+{
+  "id" : "e1f8c7b4-5d3a-4c2f-9b1e-6f3a2d5c7b98",
+  "titulo" : "Caracóis (Receita Própria)",
+  "origem" : "Receita Própria",
+  "tipo" : "petiscos",
+  "subtipo" : null,
+  "numeroPessoas" : 4,
+  "dificuldade" : "intermedio",
+  "ingredientes" : [ {
+    "nome" : "Caracóis",
+    "quantidade" : "1kg"
+  }, {
+    "nome" : "Caldo Knorr (galinha ou carne)",
+    "quantidade" : "1 cubo"
+  }, {
+    "nome" : "Alho",
+    "quantidade" : "2 dentes"
+  }, {
+    "nome" : "Chouriço",
+    "quantidade" : "4 rodelas cortadas em 4"
+  }, {
+    "nome" : "Bacon",
+    "quantidade" : "50g cortado aos quadrados"
+  }, {
+    "nome" : "Azeite",
+    "quantidade" : "0,5 dl (aproximadamente)"
+  }, {
+    "nome" : "Orégãos",
+    "quantidade" : "1 ramo"
+  }, {
+    "nome" : "Sal",
+    "quantidade" : "+/- 2 mãos cheias"
+  } ],
+  "passosPreparacao" : [ "De véspera, polvilhe os caracóis com farinha e coloque num passador.", "Lave-os em várias águas até sair limpa.", "Coloque os caracóis numa panela com água suficiente para cobri-los em lume muito baixo até morrerem.", "Enquanto isso, misture numa tigela o alho, chouriço, bacon, azeite e o cubo Knorr.", "Quando os caracóis morrerem, adicione sal, aumente o lume até levantar fervura e retire a espuma para a tigela com um pouco de líquido.", "Misture o conteúdo da tigela até o Knorr derreter e deite de volta na panela, juntando os orégãos.", "Deixe cozer em lume médio por 30 a 45 minutos." ],
+  "fotoUrl" : null
+}

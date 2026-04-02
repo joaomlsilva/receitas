@@ -1,0 +1,30 @@
+{
+    "id": "f9c8d2b1-7e3a-4b5f-8c2d-1a6f9e4b2c7d",
+    "titulo": "Molho Barbecue Picante do Texas",
+    "origem": "Receita Tradicional",
+    "tipo": "molho",
+    "subtipo": "barbecue",
+    "numeroPessoas": 6,
+    "dificuldade": "intermedio",
+    "ingredientes": [
+      { "nome": "Ketchup", "quantidade": "1 frasco (14 oz)" },
+      { "nome": "Vinagre de cidra", "quantidade": "1 xícara" },
+      { "nome": "Molho inglês (Worcestershire sauce)", "quantidade": "½ xícara" },
+      { "nome": "Mostarda amarela", "quantidade": "2 colheres de sopa" },
+      { "nome": "Suco de limão fresco", "quantidade": "2 colheres de sopa" },
+      { "nome": "Liquid smoke (fumo líquido)", "quantidade": "½ colher de chá" },
+      { "nome": "Chili em pó (piripiri)", "quantidade": "¼ xícara" },
+      { "nome": "Paprica", "quantidade": "2 colheres de sopa" },
+      { "nome": "Flocos de pimenta (hot)", "quantidade": "1 colher de chá" },
+      { "nome": "Pimenta preta", "quantidade": "1 colher de chá" },
+      { "nome": "Açúcar mascavo escuro (opcional)", "quantidade": "1 colher de chá" },
+      { "nome": "Gordura de bacon (drippings) opcional", "quantidade": "1/3 xícara" },
+      { "nome": "Água", "quantidade": "3 xícaras" }
+    ],
+    "passosPreparacao": [
+      "Combine todos os ingredientes numa panela grande e mexa bem.",
+      "Leve ao fogo alto até ferver, reduza o calor e cozinhe rapidamente sem tampar até engrossar (~20 minutos), mexendo sempre.",
+      "Use imediatamente ou transfira para frascos, cubra e deixe amadurecer 2-3 dias no frigorífico antes de servir."
+    ],
+    "fotoUrl": null
+  }
